@@ -6,5 +6,5 @@
 * [Flash](flash/readme.md)
    * [Flash Player Debug 로그 보기](flash/turn-on-flash-debugger.md)
 * [Hive](hive/readme.md)
-   * Hive에서 Multi Table Select 하기
+   * [Hive에서 Multi Table Select 하기](hive/select-from-multi-tables-using-hive.md)
 
