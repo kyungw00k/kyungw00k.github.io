@@ -8,4 +8,5 @@
 * [Hive](hive/readme.md)
    * [Hive에서 Multi Table Select 하기](hive/select-from-multi-tables-using-hive.md)
 * [Java](java/readme.md)
+   * Spring - Not an managed type
 
