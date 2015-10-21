@@ -11,5 +11,5 @@
    * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
 * [R](r/readme.md)
 * [Spark](spark/readme.md)
-   * Running Spark on CDH4
+   * [Running Spark on CDH4](spark/running_spark_on_cdh4.md)
 
