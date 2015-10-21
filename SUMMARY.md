@@ -10,5 +10,5 @@
 * [Java](java/readme.md)
    * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
 * [R](r/readme.md)
-* [spark](spark/readme.md)
+* [Spark](spark/readme.md)
 
