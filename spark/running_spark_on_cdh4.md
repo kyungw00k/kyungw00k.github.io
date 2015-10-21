@@ -10,3 +10,4 @@
 ## Testing
 
 ## References
+* [Install Spark/Shark on CDH 4 | @sskaje](https://sskaje.me/2014/02/install-spark-shark-cdh-4/)
