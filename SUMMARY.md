@@ -13,4 +13,5 @@
 * [Spark](spark/readme.md)
    * [Running Spark on CDH4](spark/running_spark_on_cdh4.md)
    * [Zeppelin 설치하기](spark/install-zeppelin.md)
+   * How to read rc file using scala
 
