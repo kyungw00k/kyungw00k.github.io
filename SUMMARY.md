@@ -15,5 +15,5 @@
    * [Zeppelin 설치하기](spark/install-zeppelin.md)
    * [How to read rc file using scala](spark/how_to_read_rc_file_using_scala.md)
 * [Tmux](tmux/readme.md)
-   * Broadcast Input To Current Session
+   * [Broadcast Input To Current Session](tmux/broadcast_input_to_current_session.md)
 
