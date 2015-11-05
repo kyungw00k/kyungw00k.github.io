@@ -27,5 +27,31 @@ app.on('ready', function() {
 ...
 ```
 
+## Nightmare 사용 예제
+```
+var Nightmare = require('nightmare');
+
+var options = {
+    'width': 800,
+    'height': 600,
+    'plugin':true,
+    'web-preferences': {
+        'plugins': true
+    }
+};
+
+var wwwDaumNet = new Nightmare(options)
+    .viewport(1000, 1000)
+    .useragent("mozilla/5.0 (macintosh; intel mac os x 10_11_1) applewebkit/601.2.7 (khtml, like gecko) version/9.0.1 safari/601.2.7")
+Chrome/38.0.2125.111 Safari/537.36")
+    .goto('http://www.daum.net')
+    .wait(5000)
+    .screenshot('wwwDaumNet.png')
+    .run(function (err, nightmare) {
+      if (err) return console.log(err);
+      console.log('Done!');
+    });
+```
+
 ## Refer to
 https://github.com/atom/electron/blob/master/docs/tutorial/using-pepper-flash-plugin.md
