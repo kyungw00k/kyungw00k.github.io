@@ -1,8 +1,6 @@
 # Credit Card Mask
 
-Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.
-
-Your task is to write a function maskify, which changes all but the last four characters into '#'.
+마지막 4자리를 제외한 나머지 부분만 #로 Masking 처리 하는 문제. the last four characters into '#'.
 
 ## Examples
 
@@ -17,7 +15,7 @@ maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```
 
-## Solution
+## 제출한 Solution
 
 ```js
 // return masked string
@@ -28,3 +26,6 @@ function maskify(cc) {
 }
 
 ```
+
+## 다른 답을 보니...
+역시 정규표현식은 진리인듯. #에라이
