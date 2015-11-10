@@ -7,7 +7,7 @@
    * [Flash Player Debug 로그 보기](flash/turn-on-flash-debugger.md)
 * [Hive](hive/readme.md)
    * [Hive에서 Multi Table Select 하기](hive/select-from-multi-tables-using-hive.md)
-   * SQL Developer에서 HiveQL 사용하기
+   * [SQL Developer에서 HiveQL 사용하기](hive/sql_developerc5d0_c11c_hiveql_c0ac_c6a9_d558_ae30.md)
 * [Java](java/readme.md)
    * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
 * [R](r/readme.md)
