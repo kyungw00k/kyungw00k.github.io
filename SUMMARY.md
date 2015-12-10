@@ -21,5 +21,5 @@
    * [Nightmare.js에서 Flash Player 플러그인 실행하기](nightmarejs/nightmarejsc5d0_c11c_flash_player_d50c_b7ec_adf8_c778_c2e4_d589_d558_ae30.md)
 * [CodeWars](codewars/readme.md)
    * [Credit Card Mask](codewars/credit_card_mask.md)
-* [Raspberry Pi](raspberry_pi.md)
+* [Raspberry Pi](raspberry_pi/raspberrypi_md.md)
 
