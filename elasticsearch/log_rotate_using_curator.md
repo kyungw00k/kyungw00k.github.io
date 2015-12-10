@@ -1,3 +1,3 @@
-# Log Rotate using Curator
+# Manage Indies
 
 See https://github.com/imperialwicket/elasticsearch-logstash-index-mgmt
