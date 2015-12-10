@@ -22,4 +22,5 @@
 * [CodeWars](codewars/readme.md)
    * [Credit Card Mask](codewars/credit_card_mask.md)
 * [Raspberry Pi](raspberry_pi/readme.md)
+   * Getting the Adafruit serial cable to work on OS X
 
