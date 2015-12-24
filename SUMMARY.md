@@ -25,4 +25,5 @@
    * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
 * [ElasticSearch](elasticsearch/readme.md)
    * [Log Rotate using Curator](elasticsearch/log_rotate_using_curator.md)
+* Mac
 
