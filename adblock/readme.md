@@ -1,6 +1,12 @@
 # AdBlock과 친해지기
 
-AdBlock이 어떻게 동작하는지 궁금해서 정리해본다.
+일부 로직을 가져와 광고 찾아주는 CLI aka `ads-finder`을 만들어볼까 해서 고민을 해봤는데...
+
+사실, 사내에서 이미 작업은 진행중이고, PhantomJS로 되어있다. 
+
+RuleSet을 별도의 파일로 관리하고 있는걸 Develop 시켜볼까 하고 AdBlock을 들여다보게 되었는데...
+
+AdBlock이 어떻게 동작하는지 궁금해서 생각나는데로 `필요한 부분`만 정리해본다.
 
 일단 큰 흐름은...
 
@@ -14,9 +20,8 @@ AdBlock이 어떻게 동작하는지 궁금해서 정리해본다.
   2. 해당 Node를 (CSS로) 숨김 처리한다.
 4. Success Callback 실행
 
-일부 로직을 가져와 `광고 찾아주는 CLI`을 만들어볼까 해서 고민을 해봤는데...
 
-**넘어야할 산** 
+**예상되는 TODO는...** 
 
 * [ ] RuleSet Fetch & Parsing
   * RuleSet은 주기적으로 업데이트 해서 LocalStorage에 저장하면 되겠고..
