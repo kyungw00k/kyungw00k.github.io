@@ -11,4 +11,4 @@ AdBlock이 어떻게 동작하는지 궁금해서 정리해본다.
 3. CSS Filter
   1. 페이지 `onload` 이후에 모든 CSS RuleSet에 대해 query 한 후,
   2. 해당 Node를 (CSS로) 숨김 처리한다.
-4. Success
+4. Success Callback 실행
