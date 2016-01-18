@@ -23,15 +23,15 @@ AdBlock이 어떻게 동작하는지 궁금해서 생각나는데로 `필요한 
 4. Success Callback 실행
 
 
-**예상되는 TODO는...** 
+<!--**예상되는 TODO는...** -->
 
-* [ ] RuleSet Fetch & Parsing
-  * RuleSet은 주기적으로 업데이트 해서 LocalStorage에 저장하면 되겠고..
+<!--* [ ] RuleSet Fetch & Parsing-->
+<!--  * RuleSet은 주기적으로 업데이트 해서 LocalStorage에 저장하면 되겠고..-->
 
-* [ ] `Domain Filter 적용`을 위해 어떤 DOM이 Resource를 요청하는지 가로채는 방법 해결하기
-  * `PhantomJS` 에서는 HTTP Request를 요청한 Node 정보를 알 수가 없다.
-  * Safari 계열에서는 `beforeload` 이벤트를 사용할 수 있다.
-  * Chrome 계열에서는 `chrome.webRequest.onBeforeRequest` API가 구현되어 있으면 사용이 가능한데, Electron에서는 ~~가능할 것 같다~~ [가능하다](http://github-bj.daocloud.io/atom/electron/blob/d9d821cea5a2425a4dde23f7eb630250cd237a60/spec/api-web-request-spec.js).
+<!--* [ ] `Domain Filter 적용`을 위해 어떤 DOM이 Resource를 요청하는지 가로채는 방법 해결하기-->
+<!--  * `PhantomJS` 에서는 HTTP Request를 요청한 Node 정보를 알 수가 없다.-->
+<!--  * Safari 계열에서는 `beforeload` 이벤트를 사용할 수 있다.-->
+<!--  * Chrome 계열에서는 `chrome.webRequest.onBeforeRequest` API가 구현되어 있으면 사용이 가능한데, Electron에서는 ~~가능할 것 같다~~ [가능하다](http://github-bj.daocloud.io/atom/electron/blob/d9d821cea5a2425a4dde23f7eb630250cd237a60/spec/api-web-request-spec.js).-->
 
-* [ ] `CSS Filter 적용`
-  * RuleSet만 Parsing되어 있다면 onLoad 이후 찾을 수 있다.
+<!--* [ ] `CSS Filter 적용`-->
+<!--  * RuleSet만 Parsing되어 있다면 onLoad 이후 찾을 수 있다.-->
