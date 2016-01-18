@@ -29,5 +29,4 @@
    * [Mac에서 NAT로 인터넷 공유하기](mac/macc5d0_c11c_nat_b85c_c778_d130_b137_acf5_c720_d55.md)
 * [AdBlock](adblock/readme.md)
    * [adblock_begin()](adblock/adblockbegin.md)
-   * [backgrund](adblock/1. backgrund.md)
 
