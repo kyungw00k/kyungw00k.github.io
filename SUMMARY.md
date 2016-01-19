@@ -30,4 +30,5 @@
 * [AdBlock](adblock/readme.md)
    * [adblock_begin()](adblock/adblockbegin.md)
 * [Git](git/readme.md)
+   * git bisect
 
