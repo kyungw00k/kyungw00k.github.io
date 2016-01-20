@@ -33,4 +33,5 @@
 * [Git](git/readme.md)
    * [git bisect](git/git_bisect.md)
 * [NPM](npm/readme.md)
+   * blink-diff
 
