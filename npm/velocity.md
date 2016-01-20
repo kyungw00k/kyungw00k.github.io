@@ -1,8 +1,8 @@
 # velocity
-> pure node용 velocity template renderer
+> A node velocity template engine.
 
 템플릿 엔진을 떠올렸다면, 맞다.
-그 `velocity`가 맞다. 가볍게 쓰기에 좋다. 
+그 `velocity`가 맞다. 하지만 Java를 사용하지 않아서 가볍게 쓰기에 좋다. 
 
 
 ## Usage
