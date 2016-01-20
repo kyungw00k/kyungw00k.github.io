@@ -8,8 +8,10 @@
 ## Usage
 ```js
 const context = require('./context.js');
-const template  = require('./template.vm');
-templateRender(context, __dirname + '/../mjs/adam.B.vm')
+
+var str = templateRender(context, './template.vm');
+
+str; // Hello, world
 ```
 
 ```sh
