@@ -7,11 +7,12 @@
 
 ## Usage
 ```js
-const context = require('./context.js');
-
-var str = templateRender(context, './template.vm');
-
-str; // Hello, world
+var Engine = require('velocity').Engine
+var engine = new Engine( { template: './template.vm'} )
+var result = engine.render( {
+    name : 'world'
+})
+console.log(result) // Hello, world
 ```
 
 ```sh
@@ -19,27 +20,3 @@ str; // Hello, world
 
 Hello, $name
 ```
-
-```js
-// context.js
-module.exports = {
-    name : 'world'
-}
-```
-
-```js
-// templateRender.js
-
-var Engine = require('velocity').Engine
-
-function templateRender (context, template) {
-  var instance = new Engine({
-    template: template
-  })
-
-  return instance.render(context)
-}
-
-module.exports = templateRender
-```
-
