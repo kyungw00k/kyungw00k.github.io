@@ -6,18 +6,22 @@
 
 
 ## Usage
-
+```js
+const context = require('./context.js');
+const template  = require('./template.vm');
+templateRender(context, __dirname + '/../mjs/adam.B.vm')
+```
 
 ```sh
 # template.vm
 
-$name
+Hello, $name
 ```
 
 ```js
 // context.js
 module.exports = {
-    name : '나야'
+    name : 'world'
 }
 ```
 
@@ -37,8 +41,3 @@ function templateRender (context, template) {
 module.exports = templateRender
 ```
 
-```js
-const context = require('./context.js');
-const template  = require('./template.vm');
-templateRender(context, __dirname + '/../mjs/adam.B.vm')
-```
