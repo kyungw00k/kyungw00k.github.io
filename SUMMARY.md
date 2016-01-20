@@ -32,6 +32,6 @@
    * [adblock_begin()](adblock/adblockbegin.md)
 * [Git](git/readme.md)
    * [git bisect](git/git_bisect.md)
-* [NPM](npm/readme.md)
+* [npm](npm/readme.md)
    * [blink-diff](npm/blink-diff.md)
 
