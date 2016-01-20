@@ -1,4 +1,4 @@
-# velocity
+# [velocity](https://github.com/fool2fish/velocity)
 > A node velocity template engine.
 
 템플릿 엔진을 떠올렸다면, 맞다.
