@@ -34,4 +34,5 @@
    * [git bisect](git/git_bisect.md)
 * [npm](npm/readme.md)
    * [blink-diff](npm/blink-diff.md)
+   * velocity
 
