@@ -25,6 +25,7 @@
    * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
 * [ElasticSearch](elasticsearch/readme.md)
    * [Log Rotate using Curator](elasticsearch/log_rotate_using_curator.md)
+   * Optimize Index
 * [Mac](mac/readme.md)
    * [Mac에서 NAT로 인터넷 공유하기](mac/macc5d0_c11c_nat_b85c_c778_d130_b137_acf5_c720_d55.md)
 * [AdBlock](adblock/readme.md)
