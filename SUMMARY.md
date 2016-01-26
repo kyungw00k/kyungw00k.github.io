@@ -36,7 +36,7 @@
    * [blink-diff](npm/blink-diff.md)
    * [velocity](npm/velocity.md)
 * [Uncategorized](uncategorized/readme.md)
-   * [Logstalgia](visualization/logstalgia.md)
+   * [Logstalgia](uncategorized/logstalgia.md)
    * [GoAccess](uncategorized/goaccess.md)
 * [Visualization](visualization/readme.md)
 
