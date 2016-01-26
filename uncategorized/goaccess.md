@@ -9,7 +9,7 @@
 brew install goaccess
 ```
 
-## Example for nginx `access.log`
+## Usage for nginx `access.log`
 ```sh
 `which goaccess` -f /var/log/nginx/access.log -a -g -H -M --real-os --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u"' --date-format="%d/%b/%Y" --time-format='%H:%M:%S' > report.html
 ```
