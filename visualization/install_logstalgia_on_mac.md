@@ -5,4 +5,6 @@
 ```sh
 brew install logstalgia
 ```
+
 ## Usage
+http://logstalgia.io/#examples
