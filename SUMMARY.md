@@ -36,7 +36,7 @@
    * [blink-diff](npm/blink-diff.md)
    * [velocity](npm/velocity.md)
 * [Visualization](visualization/readme.md)
-   * [Install Logstalgia on Mac](visualization/install_logstalgia_on_mac.md)
 * [Uncategorized](uncategorized/readme.md)
+   * [Install Logstalgia on Mac](visualization/install_logstalgia_on_mac.md)
    * [GoAccess](uncategorized/goaccess.md)
 
