@@ -38,6 +38,6 @@
 * [Uncategorized](uncategorized/readme.md)
    * [GoAccess](uncategorized/goaccess.md)
 * [Visualization](visualization/readme.md)
-   * [Logstalgia](uncategorized/logstalgia.md)
+   * [Logstalgia](visualization/logstalgia.md)
    * [GithubVisualizer](visualization/githubvisualizer.md)
 
