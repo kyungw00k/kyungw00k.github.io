@@ -35,5 +35,5 @@
 * [npm](npm/readme.md)
    * [blink-diff](npm/blink-diff.md)
    * [velocity](npm/velocity.md)
-* Visualization
+* [Visualization](visualization/readme.md)
 
