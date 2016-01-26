@@ -1,0 +1,2 @@
+# Install Logstalgia on Mac
+
