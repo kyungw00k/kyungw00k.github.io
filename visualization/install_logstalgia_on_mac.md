@@ -1,4 +1,4 @@
-# Install Logstalgia on Mac
+# Logstalgia
 
 ```sh
 brew install logstalgia
