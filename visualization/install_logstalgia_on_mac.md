@@ -1,4 +1,4 @@
-# Logstalgia
+# [Logstalgia](http://logstalgia.io/)
 
 ## Install
 
