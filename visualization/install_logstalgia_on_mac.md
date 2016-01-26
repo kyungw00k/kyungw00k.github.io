@@ -5,3 +5,4 @@
 ```sh
 brew install logstalgia
 ```
+## Usage
