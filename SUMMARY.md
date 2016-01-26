@@ -38,4 +38,5 @@
 * [Visualization](visualization/readme.md)
    * [Install Logstalgia on Mac](visualization/install_logstalgia_on_mac.md)
 * [Uncategorized](uncategorized/readme.md)
+   * GoAccess
 
