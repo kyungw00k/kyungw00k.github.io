@@ -36,4 +36,5 @@
    * [blink-diff](npm/blink-diff.md)
    * [velocity](npm/velocity.md)
 * [Visualization](visualization/readme.md)
+   * Install Logstalgia on Mac
 
