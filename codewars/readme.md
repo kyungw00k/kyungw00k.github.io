@@ -1,2 +1,2 @@
-# [CodeWars](http://www.codewars.com/_
+# [CodeWars](http://www.codewars.com/)
 
