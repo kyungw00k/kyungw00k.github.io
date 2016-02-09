@@ -26,7 +26,7 @@ function toCurrency(price){
 
 하지만...
 
-정규표현식
+정규표현식이 갑!
 
 ```js
 function toCurrency(price){
