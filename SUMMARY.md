@@ -21,7 +21,7 @@
    * [Nightmare.js에서 Flash Player 플러그인 실행하기](nightmarejs/nightmarejsc5d0_c11c_flash_player_d50c_b7ec_adf8_c778_c2e4_d589_d558_ae30.md)
 * [CodeWars](codewars/readme.md)
    * [Credit Card Mask](codewars/credit_card_mask.md)
-   * Converting integer to currency format
+   * [Converting integer to currency format](codewars/converting_integer_to_currency_format.md)
 * [Raspberry Pi](raspberry_pi/readme.md)
    * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
 * [ElasticSearch](elasticsearch/readme.md)
