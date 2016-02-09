@@ -22,7 +22,7 @@
 * [CodeWars](codewars/readme.md)
    * [Credit Card Mask](codewars/credit_card_mask.md)
    * [Converting integer to currency format](codewars/converting_integer_to_currency_format.md)
-   * Finding length of the sequence
+   * [Finding length of the sequence](codewars/finding_length_of_the_sequence.md)
 * [Raspberry Pi](raspberry_pi/readme.md)
    * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
 * [ElasticSearch](elasticsearch/readme.md)
