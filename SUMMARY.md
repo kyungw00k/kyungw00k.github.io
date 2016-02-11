@@ -37,6 +37,7 @@
 * [npm](npm/readme.md)
    * [blink-diff](npm/blink-diff.md)
    * [velocity](npm/velocity.md)
+   * inquirer
 * [Uncategorized](uncategorized/readme.md)
    * [GoAccess](uncategorized/goaccess.md)
 * [Visualization](visualization/readme.md)
