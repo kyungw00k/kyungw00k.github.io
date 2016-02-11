@@ -10,7 +10,7 @@
  */
 
 "use strict";
-var inquirer = require("../lib/inquirer");
+var inquirer = require("inquirer");
 
 var questions = [
   {
