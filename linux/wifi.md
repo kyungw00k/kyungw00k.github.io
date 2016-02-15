@@ -25,7 +25,6 @@ iface default inet dhcp
 
 ### `/etc/wpa_supplicant/wpa_supplicant.conf` for WPA2
 
-
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
