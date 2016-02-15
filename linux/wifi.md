@@ -2,7 +2,7 @@
 
 ## Packages
 ```
-## Ubuntu
+# Ubuntu
 apt-get install wireless-tools wpasupplicant
 ```
 
