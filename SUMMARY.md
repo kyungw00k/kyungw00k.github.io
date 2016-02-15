@@ -50,4 +50,5 @@
 * [Linux](linux/readme.md)
    * [WIFI](linux/wifi.md)
 * [Electron](electron/readme.md)
+   * session.webRequest.onBeforeRequest
 
