@@ -12,8 +12,6 @@ This package is an example implementation of the 'dsp-intf' to satisfy the follo
 
 As a result of requirement (1) above, this package must be capable of working in concert with the 'ssp-client' described below.
 
-
-
 * [`org.openrtb.dsp.intf.service.AdvertiserService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/demand-side/dsp-intf/src/main/java/org/openrtb/dsp/intf/service/AdvertiserService.java)
 * [`org.openrtb.dsp.intf.service.IdentificationService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/demand-side/dsp-intf/src/main/java/org/openrtb/dsp/intf/service/IdentificationService.java)
 
