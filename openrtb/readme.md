@@ -6,6 +6,10 @@
 
 ### DSP
 
+#### org.openrtb.dsp.intf.service.AdvertiserService.java
+
+#### org.openrtb.dsp.intf.service.IdentificationService.java
+
 ### SSP
 
 ## Build
