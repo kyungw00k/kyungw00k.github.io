@@ -5,7 +5,6 @@
 ## Implementation
 
 ### DSP
-
 #### org.openrtb.dsp.intf.service.AdvertiserService.java
 ```java
 package org.openrtb.dsp.intf.service;
