@@ -28,6 +28,4 @@ module.exports = viewBinder;
 ```
 
 
-
-
 2. `window.requirejs`를 바라보지 않도록 `browserify-derequire` 플러그인을 사용한다.
