@@ -50,5 +50,5 @@
 * [Linux](linux/readme.md)
    * [WIFI](linux/wifi.md)
 * [Electron](electron/readme.md)
-* AngularJS
+* [AngularJS](angularjs/readme.md)
 
