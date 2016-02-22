@@ -8,3 +8,5 @@
 $ git clone https://github.com/openrtb/openrtb2x.git && cd openrtb2x
 $ mvn package
 ```
+
+## Workflow
