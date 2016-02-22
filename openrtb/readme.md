@@ -23,7 +23,7 @@ As a result of requirement (1) above, this package must be capable of working in
 
 * []()
 * []()
-* 
+
 ## Build
 
 ```sh
