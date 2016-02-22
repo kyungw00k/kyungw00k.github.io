@@ -7,7 +7,8 @@
 ## Implementation
 Need to implement your own client
 
-### DSP
+### Requirements
+#### DSP
 This package is an example implementation of the 'dsp-intf' to satisfy the following:
 
 1. Integration testing between the 'dsp-web' and 'ssp-web' projects.
@@ -18,7 +19,7 @@ As a result of requirement (1) above, this package must be capable of working in
 * [`org.openrtb.dsp.intf.service.AdvertiserService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/demand-side/dsp-intf/src/main/java/org/openrtb/dsp/intf/service/AdvertiserService.java)
 * [`org.openrtb.dsp.intf.service.IdentificationService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/demand-side/dsp-intf/src/main/java/org/openrtb/dsp/intf/service/IdentificationService.java)
 
-### SSP
+#### SSP
 This package is an example implementation of the 'ssp-intf' to satisfy the following: 
 
 1. Integration testing between the 'ssp-web' and 'dsp-web' projects.
