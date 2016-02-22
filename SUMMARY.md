@@ -51,4 +51,5 @@
    * [WIFI](linux/wifi.md)
 * [Electron](electron/readme.md)
 * [AngularJS](angularjs/readme.md)
+   * textarea ng-model is not updated in IE with CJK IME
 
