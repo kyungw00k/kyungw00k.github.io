@@ -2,7 +2,7 @@
 
 ## Problem
 
-browserify로 만든 js가 기존에 requirejs를 사용하고 있는 사이트에서 작동하지 않는 현상
+browserify로 만든 library js가 기존에 requirejs를 사용하고 있는 사이트에서 작동하지 않는 현상
 
 ## Solution
 
