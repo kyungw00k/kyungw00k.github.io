@@ -20,6 +20,7 @@ As a result of requirement (1) above, this package must be capable of working in
 
 ### SSP
 This package is an example implementation of the 'ssp-intf' to satisfy the following: 
+
 1. Integration testing between the 'ssp-web' and 'dsp-web' projects.
 2. Provide a framework for other SSPs to leverage this specification more quickly by allowing the SSP to focus on the integration aspects of the specification with their own specific platform.
 
