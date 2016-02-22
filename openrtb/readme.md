@@ -21,8 +21,7 @@ This package is an example implementation of the 'ssp-intf' to satisfy the follo
 As a result of requirement (1) above, this package must be capable of working in concert with the 'dsp-client' described above.
 
 
-* []()
-* []()
+* [`org.openrtb.ssp.SupplySideService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/supply-side/ssp-intf/src/main/java/org/openrtb/ssp/SupplySideService.java)
 
 ## Build
 
