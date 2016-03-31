@@ -3,7 +3,8 @@
         "ad",
         "advanced-emoji",
         "atoc",
-        "addcssjs"
+        "addcssjs",
+        "ga"
     ],
     "pluginsConfig": {}
 }
