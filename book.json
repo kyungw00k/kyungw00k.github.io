@@ -8,7 +8,8 @@
         "disqus",
         "gist",
         "anchors-wrapper",
-        "book-summary-scroll-position-saver"
+        "book-summary-scroll-position-saver",
+        "puml"
     ],
     "pluginsConfig": {
         "ga": {
