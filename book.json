@@ -32,7 +32,7 @@
         },
         "-disqus": {
             "shortName": "kyungw00k-til",
-            "useIdentifier": true
+            "useIdentifier": false
         }
     }
 }
