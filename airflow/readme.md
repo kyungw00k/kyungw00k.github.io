@@ -1,6 +1,6 @@
 # Airflow
 
-## Install on Mac
+## Setup on Mac
 `brew` is mandatory!
 
 ```sh
