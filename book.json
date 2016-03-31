@@ -15,7 +15,7 @@
         "jsfiddle",
         "youtube",
         "search",
-        "search-languages"
+        "-search-languages"
     ],
     "pluginsConfig": {
         "ga": {
