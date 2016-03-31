@@ -7,7 +7,7 @@
         "adsense",
         "disqus",
         "gist",
-        "-anchors-wrapper",
+        "anchors-wrapper",
         "book-summary-scroll-position-saver",
         "printlinks",
         "plantuml",
