@@ -4,7 +4,7 @@
 `brew` is mandatory!
 
 ```sh
-brew install python python3 mysql
+brew install python python3
 pip install airflow
 
 mkdir ~/airflow
