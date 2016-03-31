@@ -9,7 +9,8 @@
         "gist",
         "anchors-wrapper",
         "book-summary-scroll-position-saver",
-        "puml"
+        "puml",
+        "printlinks"
     ],
     "pluginsConfig": {
         "ga": {
