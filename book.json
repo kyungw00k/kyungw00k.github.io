@@ -9,7 +9,7 @@
         "gist",
         "-anchors-wrapper",
         "book-summary-scroll-position-saver",
-        "printlinks",
+        "-printlinks",
         "plantuml",
         "scrollablecode",
         "todo"
