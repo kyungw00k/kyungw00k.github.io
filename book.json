@@ -8,7 +8,7 @@
         "gist",
         "-book-summary-scroll-position-saver",
         "-printlinks",
-        "plantuml",
+        "-plantuml",
         "scrollablecode",
         "todo"
     ],
