@@ -15,7 +15,6 @@
         "jsfiddle",
         "youtube",
         "search",
-        "facebook"
     ],
     "pluginsConfig": {
         "ga": {
@@ -33,7 +32,7 @@
         },
         "-disqus": {
             "shortName": "kyungw00k-til",
-            "useIdentifier": false
+            "useIdentifier": true
         }
     }
 }
