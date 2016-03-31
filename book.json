@@ -5,5 +5,9 @@
         "anchor-navigation",
         "github"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/kyungw00k/til/"
+        }
+    }
 }
