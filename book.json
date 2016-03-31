@@ -7,7 +7,8 @@
         "mathjax",
         "github",
         "adsense",
-        "anchors"
+        "anchors",
+        "github-buttons"
     ],
     "pluginsConfig": {
         "ga": {
