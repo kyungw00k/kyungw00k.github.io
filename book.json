@@ -11,7 +11,8 @@
         "book-summary-scroll-position-saver",
         "printlinks",
         "plantuml",
-        "scrollablecode"
+        "scrollablecode",
+        "todo"
     ],
     "pluginsConfig": {
         "ga": {
