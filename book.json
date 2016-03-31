@@ -5,7 +5,8 @@
         "anchor-navigation",
         "github",
         "adsense",
-        "disqus"
+        "disqus",
+        "gist"
     ],
     "pluginsConfig": {
         "ga": {
