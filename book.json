@@ -12,7 +12,8 @@
         "disqus",
         "ace",
         "gist",
-        "jsfiddle"
+        "jsfiddle",
+        "youtube"
     ],
     "pluginsConfig": {
         "ga": {
