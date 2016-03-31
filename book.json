@@ -10,7 +10,8 @@
         "anchors-wrapper",
         "book-summary-scroll-position-saver",
         "printlinks",
-        "plantuml"
+        "plantuml",
+        "scrollablecode"
     ],
     "pluginsConfig": {
         "ga": {
