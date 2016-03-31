@@ -9,7 +9,7 @@
         "adsense",
         "anchors",
         "github-buttons",
-        "disqus",
+        "-disqus",
         "ace",
         "gist",
         "jsfiddle",
@@ -31,7 +31,7 @@
             "format": "auto",
             "element": ""
         },
-        "disqus": {
+        "-disqus": {
             "shortName": "kyungw00k-til",
             "useIdentifier": false
         }
