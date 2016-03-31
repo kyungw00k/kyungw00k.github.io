@@ -24,6 +24,10 @@
             "slot": "4778087237",
             "format": "auto",
             "element": ""
+        },
+        "disqus": {
+            "shortName": "kyungw00k-til",
+            "useIdentifier": true
         }
     }
 }
