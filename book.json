@@ -6,7 +6,8 @@
         "addcssjs",
         "ga",
         "mathjax",
-        "github"
+        "github",
+        "adsense"
     ],
     "pluginsConfig": {}
 }
