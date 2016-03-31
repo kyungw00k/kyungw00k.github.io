@@ -9,7 +9,8 @@
         "adsense",
         "anchors",
         "github-buttons",
-        "disqus"
+        "disqus",
+        "ace"
     ],
     "pluginsConfig": {
         "ga": {
