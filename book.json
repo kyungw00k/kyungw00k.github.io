@@ -10,7 +10,8 @@
         "anchors",
         "github-buttons",
         "disqus",
-        "ace"
+        "ace",
+        "gist"
     ],
     "pluginsConfig": {
         "ga": {
