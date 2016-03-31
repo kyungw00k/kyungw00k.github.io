@@ -2,7 +2,8 @@
     "plugins": [
         "structured-toc",
         "ga",
-        "anchor-navigation"
+        "anchor-navigation",
+        "github"
     ],
     "pluginsConfig": {}
 }
