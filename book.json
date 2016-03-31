@@ -14,7 +14,8 @@
         "gist",
         "jsfiddle",
         "youtube",
-        "search"
+        "search",
+        "search-languages"
     ],
     "pluginsConfig": {
         "ga": {
