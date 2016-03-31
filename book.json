@@ -13,7 +13,8 @@
         "ace",
         "gist",
         "jsfiddle",
-        "youtube"
+        "youtube",
+        "search"
     ],
     "pluginsConfig": {
         "ga": {
