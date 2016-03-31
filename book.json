@@ -9,6 +9,12 @@
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/kyungw00k/til/"
+        },
+        "adsense": {
+            "client": "ca-pub-5559425044364726",
+            "slot": "4778087237",
+            "format": "auto",
+            "element": ""
         }
     }
 }
