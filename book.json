@@ -6,7 +6,8 @@
         "ga",
         "mathjax",
         "github",
-        "adsense"
+        "adsense",
+        "anchors"
     ],
     "pluginsConfig": {
         "ga": {
