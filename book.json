@@ -11,7 +11,8 @@
         "github-buttons",
         "disqus",
         "ace",
-        "gist"
+        "gist",
+        "jsfiddle"
     ],
     "pluginsConfig": {
         "ga": {
