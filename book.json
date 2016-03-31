@@ -6,7 +6,8 @@
         "github",
         "adsense",
         "disqus",
-        "gist"
+        "gist",
+        "github-buttons"
     ],
     "pluginsConfig": {
         "ga": {
