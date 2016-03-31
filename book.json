@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "structured-toc",
         "ga",
         "anchor-navigation",
         "github",
