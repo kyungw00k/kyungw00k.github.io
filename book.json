@@ -10,6 +10,10 @@
         "adsense"
     ],
     "pluginsConfig": {
+        "ga": {
+            "token": "UA-37308811-3",
+            "configuration": "auto"
+        },
         "adsense": {
             "client": "ca-pub-5559425044364726",
             "slot": "4778087237",
