@@ -7,7 +7,8 @@
         "adsense",
         "disqus",
         "gist",
-        "anchors-wrapper"
+        "anchors-wrapper",
+        "book-summary-scroll-position-saver"
     ],
     "pluginsConfig": {
         "ga": {
