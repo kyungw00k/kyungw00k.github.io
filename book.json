@@ -1,7 +1,8 @@
 {
     "plugins": [
         "structured-toc",
-        "ga"
+        "ga",
+        "anchor-navigation"
     ],
     "pluginsConfig": {}
 }
