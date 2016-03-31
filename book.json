@@ -3,7 +3,8 @@
         "structured-toc",
         "ga",
         "anchor-navigation",
-        "github"
+        "github",
+        "adsense"
     ],
     "pluginsConfig": {
         "github": {
