@@ -1,7 +1,8 @@
 {
     "plugins": [
         "ad",
-        "advanced-emoji"
+        "advanced-emoji",
+        "atoc"
     ],
     "pluginsConfig": {}
 }
