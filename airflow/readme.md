@@ -1,6 +1,8 @@
 # Airflow
 
 ## Setup on Mac
+`brew` is mandatory!
+
 ```sh
 brew install python python3 mysql
 pip install airflow
