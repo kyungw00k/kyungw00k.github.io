@@ -8,7 +8,7 @@
         "disqus",
         "gist",
         "anchors-wrapper",
-        "book-summary-scroll-position-saver",
+        "-book-summary-scroll-position-saver",
         "printlinks",
         "plantuml",
         "scrollablecode",
