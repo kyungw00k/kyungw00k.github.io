@@ -1,38 +1,7 @@
 {
     "plugins": [
-        "advanced-emoji",
-        "atoc",
-        "addcssjs",
-        "ga",
-        "mathjax",
-        "github",
-        "adsense",
-        "anchors",
-        "github-buttons",
-        "-disqus",
-        "ace",
-        "gist",
-        "jsfiddle",
-        "youtube",
-        "search",
+        "structured-toc",
+        "ga"
     ],
-    "pluginsConfig": {
-        "ga": {
-            "token": "UA-37308811-3",
-            "configuration": "auto"
-        },
-        "github": {
-            "url": "https://github.com/kyungw00k/til"
-        },
-        "adsense": {
-            "client": "ca-pub-5559425044364726",
-            "slot": "4778087237",
-            "format": "auto",
-            "element": ""
-        },
-        "-disqus": {
-            "shortName": "kyungw00k-til",
-            "useIdentifier": false
-        }
-    }
+    "pluginsConfig": {}
 }
