@@ -6,7 +6,8 @@
         "github",
         "adsense",
         "disqus",
-        "gist"
+        "gist",
+        "anchors-wrapper"
     ],
     "pluginsConfig": {
         "ga": {
