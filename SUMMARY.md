@@ -56,4 +56,5 @@
    * [Caching](angularjs/caching.md)
 * [OpenRTB](openrtb/readme.md)
 * [Airflow](airflow/readme.md)
+   * 파일 상단에 코드 내 인코딩을 명시적으로 추가할 것
 
