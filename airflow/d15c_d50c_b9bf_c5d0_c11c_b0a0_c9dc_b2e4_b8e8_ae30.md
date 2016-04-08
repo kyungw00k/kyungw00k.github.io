@@ -32,7 +32,17 @@ def ds_add(ds, days):
     return ds.isoformat()[:10]
 ```
 
-`macros
+다음날은 `macros.ds_add(ds, 1)`로, 하루 전은 `macros.ds_add(ds, -1)`로 사용하면 되겠네요.
+
+참고로, `execution_date`를 사용한다면 `macros.timedelta`의 조합으로 하시면 될 것 같습니다.
+
+따라서, 아래 두 표현은 같은 값이 되겠네요.
+
+```py
+# 다음 날
+macros.ds_add(ds, 1)
+execution_date+macros.timedelta(1).strftime("%Y-%m-%d")
+```
 
 ### `macros.ds_format(ds, input_format, output_format)`
 ```py
@@ -53,3 +63,7 @@ def ds_format(ds, input_format, output_format):
     """
     return datetime.strptime(ds, input_format).strftime(output_format)
 ```
+
+간단한 예로, `ds`가 `YYYY-MM-DD` 포멧인데 이를 `YYYYMMDD`로 바꾸고자 할 때 사용하면 됩니다.
+
+`macros.ds_format(ds, "%Y-%m-%d", "%Y%m%d")`
