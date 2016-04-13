@@ -1,6 +1,6 @@
 # Raspberry Pi 활용
 
-(메모해놓고 그냥 생각날때 보기만 했던 내용을 Posting한다.)
+(메모해놓고 그냥 생각날때 보기만 했던 내용을 Posting 한다.)
 
 ## OS 설치
 
@@ -64,8 +64,7 @@ Adapter를 올린다.
 * [Video: Configuring your Raspberry Pi for WPA/WPA2 in less than 5 minutes](http://www.youtube.com/watch?v=UGuJrHVd8s8)
 * [Configuring WPA2 using wpa_supplicant on the Raspberry Pi](http://kerneldriver.wordpress.com/2012/10/21/configuring-wpa2-using-wpa_supplicant-on-the-raspberry-pi/)
 
-## 참고할만 한 곳
+## 참고할 만 한 곳
 * [Raspbian](http://www.raspbian.org/)
 * [R-Pi Troubleshooting](http://elinux.org/R-Pi_Troubleshooting)
 * [AFP Mount 하기](http://blog.geekliketodd.com/archives/900)
-
