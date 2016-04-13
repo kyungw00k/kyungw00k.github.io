@@ -65,5 +65,4 @@
    * [[CodeWars] Credit Card Mask](codewars/credit_card_mask.md)
    * [[CodeWars] Converting integer to currency format](codewars/converting_integer_to_currency_format.md)
    * [[CodeWars] Finding length of the sequence](codewars/finding_length_of_the_sequence.md)
-* [Problem Solving](problem_solving/readme.md)
 
