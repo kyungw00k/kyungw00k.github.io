@@ -10,7 +10,6 @@
    * [SQL Developer에서 HiveQL 사용하기](hive/sql_developerc5d0_c11c_hiveql_c0ac_c6a9_d558_ae30.md)
 * [Java](java/readme.md)
    * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
-* [R](r/readme.md)
 * [Spark](spark/readme.md)
    * [Running Spark on CDH4](spark/running_spark_on_cdh4.md)
    * [Zeppelin 설치하기](spark/install-zeppelin.md)
