@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * JavaScript
 * [ES6](es6/readme.md)
    * [기존 플잭에 ES6 적용하기](es6/convert-es5-to-es6-simple.md)
 * [Flash](flash/readme.md)
