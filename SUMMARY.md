@@ -60,7 +60,6 @@
    * [Genymotion](android/2013-08-21_genymotion.md)
 * [Arduino](arduino/readme.md)
    * [Arduino 101 using NodeJS](arduino/2013-08-13_arduino_101_using_nodejs.md)
-* [HackerRank](hackerrank/readme.md)
 * [Problem Solving](codewars/readme.md)
    * [[CodeWars] Credit Card Mask](codewars/credit_card_mask.md)
    * [[CodeWars] Converting integer to currency format](codewars/converting_integer_to_currency_format.md)
