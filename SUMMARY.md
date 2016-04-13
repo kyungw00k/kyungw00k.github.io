@@ -62,7 +62,7 @@
    * [Arduino 101 using NodeJS](arduino/2013-08-13_arduino_101_using_nodejs.md)
 * [HackerRank](hackerrank/readme.md)
 * [CodeWars](codewars/readme.md)
-   * [Credit Card Mask](codewars/credit_card_mask.md)
+   * [[CodeWars] Credit Card Mask](codewars/credit_card_mask.md)
    * [Converting integer to currency format](codewars/converting_integer_to_currency_format.md)
    * [Finding length of the sequence](codewars/finding_length_of_the_sequence.md)
 * [Problem Solving](problem_solving/readme.md)
