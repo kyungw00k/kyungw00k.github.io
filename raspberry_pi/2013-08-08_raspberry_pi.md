@@ -5,7 +5,7 @@
 ## OS 설치
 
 [공식 Raspbian 이미지](http://www.raspbian.org/RaspbianImages)를 내려받거나, 
-[Minimal한 이미지를 다운](http://www.linuxsystems.it/2012/06/raspbian-wheezy-armhf-raspberry-pi-minimal-image/) 받아 SD카드에 설치한다.
+[Minimal한 이미지를 다운](http://www.linuxsystems.it/2012/06/raspbian-wheezy-armhf-raspberry-pi-minimal-image/) 받아 SD 카드에 설치한다.
 
 인터넷 연결공유로 연결한 후, IP 확인
 
