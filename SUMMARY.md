@@ -65,5 +65,5 @@
    * [Android Native Library를 JAR에 포함시켜 Dynamic Loading하기](android/2013-02-21_android_native_libraryb97c_jar_c5d0_d3ec.md)
    * [Genymotion](android/2013-08-21_genymotion.md)
 * [Arduino](arduino/readme.md)
-   * Arduino 101 using NodeJS
+   * [Arduino 101 using NodeJS](arduino/2013-08-13_arduino_101_using_nodejs.md)
 
