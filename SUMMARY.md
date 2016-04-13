@@ -25,6 +25,7 @@
    * [Finding length of the sequence](codewars/finding_length_of_the_sequence.md)
 * [Raspberry Pi](raspberry_pi/readme.md)
    * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
+   * Raspberry Pi 활용
 * [ElasticSearch](elasticsearch/readme.md)
    * [Log Rotate using Curator](elasticsearch/log_rotate_using_curator.md)
    * [Optimize Index](elasticsearch/optimize_index.md)
