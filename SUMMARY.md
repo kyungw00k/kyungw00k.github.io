@@ -45,7 +45,6 @@
 * [Visualization](visualization/readme.md)
    * [Logstalgia](visualization/logstalgia.md)
    * [GithubVisualizer](visualization/githubvisualizer.md)
-* [HackerRank](hackerrank/readme.md)
 * [Xcode](xcode/readme.md)
    * [Alcatraz](xcode/alcatraz.md)
 * [Linux](linux/readme.md)
@@ -66,5 +65,6 @@
    * [Genymotion](android/2013-08-21_genymotion.md)
 * [Arduino](arduino/readme.md)
    * [Arduino 101 using NodeJS](arduino/2013-08-13_arduino_101_using_nodejs.md)
+* [HackerRank](hackerrank/readme.md)
 * [Problem Solving](problem_solving/readme.md)
 
