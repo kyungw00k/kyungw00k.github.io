@@ -1,6 +1,6 @@
-# Docker로 SQL*Plus 및 SQL Loader 사용하기
+# Docker로 SQL\*Plus 및 SQL Loader 사용하기
 
-## SQL*Plus
+## SQL\*Plus
 ```
 $ docker run  \
   -e NLS_LANG=KOREAN_KOREA.AL32UTF8 \
