@@ -23,5 +23,3 @@ cd ~/airflow && airflow initdb
 # start the web server, default port is 8080
 cd ~/airflow && airflow webserver -p 8080
 ```
-
-## Configuration
