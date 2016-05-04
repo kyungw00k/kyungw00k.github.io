@@ -67,5 +67,5 @@
    * [[CodeWars] Finding length of the sequence](codewars/finding_length_of_the_sequence.md)
 * [Ansible](ansible/readme.md)
    * [Error: ansible requires a json module, none found!](ansible/error_ansible_requires_a_json_module,_none_found.md)
-   * Rotate SSH Keys between two host groups
+   * [Rotate SSH Keys between two host groups](ansible/rotate_ssh_keys_between_two_host_groups.md)
 
