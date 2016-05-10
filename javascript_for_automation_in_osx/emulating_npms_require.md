@@ -1,0 +1,2 @@
+# Emulating npm's require()
+
