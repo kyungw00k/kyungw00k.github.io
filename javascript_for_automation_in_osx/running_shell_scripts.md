@@ -1,8 +1,9 @@
 # Running Shell Scripts
 
-## Method 1. Use [`app.doShellScript`](https://github.com/dtinth/JXA-Cookbook/wiki/Shell-and-CLI-Interactions#running-shell-scripts)
-`app` is instance of `Application`.
+## Method 1. Use `app.doShellScript`
+https://github.com/dtinth/JXA-Cookbook/wiki/Shell-and-CLI-Interactions#running-shell-scripts
 
+### Example
 ```js
 app.doShellScript('ls')
   //    => "README.md\rbutton.svg"
