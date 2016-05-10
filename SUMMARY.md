@@ -73,4 +73,5 @@
    * [Role 만들때는 ansible-galaxy를 사용하자](ansible/role_b9cc_b4e4_b54c_b294_ansible_-_galaxy_b97c_c0a.md)
 * [JavaScript for Automation in OSX](javascript_for_automation_in_osx/readme.md)
    * [Emulating npm's require()](javascript_for_automation_in_osx/emulating_npms_require.md)
+   * Running Shell Scripts
 
