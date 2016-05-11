@@ -3,7 +3,7 @@
         "ga",
         "-anchor-navigation",
         "github",
-        "adsense",
+        "-adsense",
         "disqus",
         "gist",
         "-book-summary-scroll-position-saver",
@@ -20,7 +20,7 @@
         "github": {
             "url": "https://github.com/kyungw00k/til/"
         },
-        "adsense": {
+        "-adsense": {
             "client": "ca-pub-5559425044364726",
             "slot": "4778087237",
             "format": "auto",
