@@ -73,5 +73,5 @@
 * [JavaScript for Automation in OSX](javascript_for_automation_in_osx/readme.md)
    * [Emulating npm's require()](javascript_for_automation_in_osx/emulating_npms_require.md)
    * [Running Shell Scripts](javascript_for_automation_in_osx/running_shell_scripts.md)
-* Online advertising
+* [Online advertising](online_advertising/readme.md)
 
