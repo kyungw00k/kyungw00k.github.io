@@ -49,7 +49,6 @@
 * [AngularJS](angularjs/readme.md)
    * [textarea ng-model is not updated in IE with CJK IME](angularjs/textarea_ng-model_is_not_updated_in_ie_with_cjk_im.md)
    * [Caching](angularjs/caching.md)
-* [OpenRTB](openrtb/readme.md)
 * [Airflow](airflow/readme.md)
    * [파일 상단에 코드 내 인코딩을 명시적으로 추가할 것](airflow/d30c_c77c_c0c1_b2e8_c5d0_cf54_b4dc_b0b4_c778_cf54_.md)
    * [템플릿에서 날짜 다루기](airflow/d15c_d50c_b9bf_c5d0_c11c_b0a0_c9dc_b2e4_b8e8_ae30.md)
@@ -73,5 +72,6 @@
 * [JavaScript for Automation in OSX](javascript_for_automation_in_osx/readme.md)
    * [Emulating npm's require()](javascript_for_automation_in_osx/emulating_npms_require.md)
    * [Running Shell Scripts](javascript_for_automation_in_osx/running_shell_scripts.md)
+* [OpenRTB](openrtb/readme.md)
 * [Online advertising](online_advertising/readme.md)
 
