@@ -74,5 +74,4 @@
 * [AngularJS](angularjs/readme.md)
    * [textarea ng-model is not updated in IE with CJK IME](angularjs/textarea_ng-model_is_not_updated_in_ie_with_cjk_im.md)
    * [Caching](angularjs/caching.md)
-* Frontend Development
 
