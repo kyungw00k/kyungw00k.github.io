@@ -11,10 +11,6 @@
   * [Hive](hive/readme.md)
      * [Hive에서 Multi Table Select 하기](hive/select-from-multi-tables-using-hive.md)
      * [SQL Developer에서 HiveQL 사용하기](hive/sql_developerc5d0_c11c_hiveql_c0ac_c6a9_d558_ae30.md)
-* Domain
-  * Online Advertising
-    * [AdBlock](adblock/readme.md)
-    * [OpenRTB](openrtb/readme.md)
 * DevOps
   * [Ansible](ansible/readme.md)
     * [Error: ansible requires a json module, none found!](ansible/error_ansible_requires_a_json_module,_none_found.md)
@@ -73,3 +69,7 @@
     * [Getting the Adafruit serial cable to work on OS X](raspberry_pi/getting_the_adafruit_serial_cable_to_work_on_os_x.md)
   * Arduino
     * [Arduino 101 using NodeJS](arduino/2013-08-13_arduino_101_using_nodejs.md)
+* Domain
+  * Online Advertising
+    * [AdBlock](adblock/readme.md)
+    * [OpenRTB](openrtb/readme.md)
