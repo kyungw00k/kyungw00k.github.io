@@ -1,6 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+* Programming Languages
+  * Java
+    * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
+  * Python
+    * [파일 상단에 코드 내 인코딩을 명시적으로 추가할 것](airflow/d30c_c77c_c0c1_b2e8_c5d0_cf54_b4dc_b0b4_c778_cf54_.md)
+
 * Batch Processing
   * [Running Spark on CDH4](spark/running_spark_on_cdh4.md)
   * [Hive](hive/readme.md)
@@ -23,9 +29,6 @@
 * Command Line Tools
   * [Tmux](tmux/readme.md)
      * [Broadcast Input To Current Session](tmux/broadcast_input_to_current_session.md)
-* Programming Languages
-  * Java
-   * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
 * FrontEnd Development
   * [requirejs와 browserify가 충돌나는 경우](uncategorized/requirejsc640_browserify_ac00_cda9_b3cc_b098_b294_.md)
   * [Nightmare.js에서 Flash Player 플러그인 실행하기](nightmarejs/nightmarejsc5d0_c11c_flash_player_d50c_b7ec_adf8_c778_c2e4_d589_d558_ae30.md)
@@ -68,6 +71,5 @@
    * [Genymotion](android/2013-08-21_genymotion.md)
 * Workflow
   * [Airflow](airflow/readme.md)
-    * [파일 상단에 코드 내 인코딩을 명시적으로 추가할 것](airflow/d30c_c77c_c0c1_b2e8_c5d0_cf54_b4dc_b0b4_c778_cf54_.md)
     * [템플릿에서 날짜 다루기](airflow/d15c_d50c_b9bf_c5d0_c11c_b0a0_c9dc_b2e4_b8e8_ae30.md)
     * [ansible-airflow로 Airflow 설치하기](airflow/ansible-airflow.md)
