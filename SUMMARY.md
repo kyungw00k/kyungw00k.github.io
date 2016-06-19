@@ -66,9 +66,9 @@
     * [템플릿에서 날짜 다루기](airflow/d15c_d50c_b9bf_c5d0_c11c_b0a0_c9dc_b2e4_b8e8_ae30.md)
     * [ansible-airflow로 Airflow 설치하기](airflow/ansible-airflow.md)
 * [Visualization](visualization/readme.md)
-* [GoAccess](uncategorized/goaccess.md)
-* [Logstalgia](visualization/logstalgia.md)
-* [GithubVisualizer](visualization/githubvisualizer.md)
+  * [GoAccess](uncategorized/goaccess.md)
+  * [Logstalgia](visualization/logstalgia.md)
+  * [GithubVisualizer](visualization/githubvisualizer.md)
 * Version Control System
   * [Git](git/readme.md)
     * [git bisect](git/git_bisect.md)
