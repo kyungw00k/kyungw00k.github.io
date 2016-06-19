@@ -6,7 +6,6 @@
     * [Spring - Not an managed type](java/spring-boot-not-an-managed-type.md)
   * Python
     * [파일 상단에 코드 내 인코딩을 명시적으로 추가할 것](airflow/d30c_c77c_c0c1_b2e8_c5d0_cf54_b4dc_b0b4_c778_cf54_.md)
-
 * Batch Processing
   * [Running Spark on CDH4](spark/running_spark_on_cdh4.md)
   * [Hive](hive/readme.md)
@@ -52,13 +51,6 @@
   * [JavaScript for Automation in OSX](javascript_for_automation_in_osx/readme.md)
     * [Emulating npm's require()](javascript_for_automation_in_osx/emulating_npms_require.md)
     * [Running Shell Scripts](javascript_for_automation_in_osx/running_shell_scripts.md)
-* [Git](git/readme.md)
-   * [git bisect](git/git_bisect.md)
-* [Uncategorized](uncategorized/readme.md)
-   * [GoAccess](uncategorized/goaccess.md)
-* [Visualization](visualization/readme.md)
-   * [Logstalgia](visualization/logstalgia.md)
-   * [GithubVisualizer](visualization/githubvisualizer.md)
 * [Xcode](xcode/readme.md)
    * [Alcatraz](xcode/alcatraz.md)
 * [Linux](linux/readme.md)
@@ -73,3 +65,10 @@
   * [Airflow](airflow/readme.md)
     * [템플릿에서 날짜 다루기](airflow/d15c_d50c_b9bf_c5d0_c11c_b0a0_c9dc_b2e4_b8e8_ae30.md)
     * [ansible-airflow로 Airflow 설치하기](airflow/ansible-airflow.md)
+* [Visualization](visualization/readme.md)
+* [GoAccess](uncategorized/goaccess.md)
+* [Logstalgia](visualization/logstalgia.md)
+* [GithubVisualizer](visualization/githubvisualizer.md)
+* Version Control System
+  * [Git](git/readme.md)
+    * [git bisect](git/git_bisect.md)
