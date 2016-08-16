@@ -1,5 +1,11 @@
-# Broadcast Input To Current Session
-
+---
+layout: post
+title: Broadcast Input To Current Session
+date: 2015-10-26 13:46:19.000000000 +09:00
+type: post
+categories:
+- Tmux
+---
 ## Configuration
 
 ```

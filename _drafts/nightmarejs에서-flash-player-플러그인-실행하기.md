@@ -1,6 +1,14 @@
-# Nightmare.js에서 Flash Player 플러그인 실행하기
+---
+layout: post
+title: Nightmare.js에서 Flash Player 플러그인 실행하기
+date: 2015-11-05 14:44:45.000000000 +09:00
+type: post
+categories:
+- JavaScript
+- Flash
+---
 
-페이지 Content에 Flash가 있는 경우라면?
+> 페이지 Content에 Flash가 있는 경우라면?
 
 ## Flash Player를 설치
 https://get.adobe.com/kr/flashplayer/

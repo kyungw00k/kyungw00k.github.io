@@ -1,4 +1,11 @@
-# OpenRTB
+---
+layout: post
+title: OpenRTB
+date: 2016-02-22 14:42:54.000000000 +09:00
+type: post
+categories:
+- Java
+---
 
 [openrtb/openrtb2x](https://github.com/openrtb/openrtb2x) 프로젝트 사용 로그를 남겨봅니다.
 
@@ -19,7 +26,7 @@ As a result of requirement (1) above, this package must be capable of working in
 * [`org.openrtb.dsp.intf.service.IdentificationService.java`](https://github.com/openrtb/openrtb2x/blob/2.0/demand-side/dsp-intf/src/main/java/org/openrtb/dsp/intf/service/IdentificationService.java)
 
 ### SSP
-This package is an example implementation of the 'ssp-intf' to satisfy the following: 
+This package is an example implementation of the 'ssp-intf' to satisfy the following:
 
 1. Integration testing between the 'ssp-web' and 'dsp-web' projects.
 2. Provide a framework for other SSPs to leverage this specification more quickly by allowing the SSP to focus on the integration aspects of the specification with their own specific platform.

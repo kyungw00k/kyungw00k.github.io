@@ -1,4 +1,12 @@
-# ansible-airflow로 Airflow 설치하기
+---
+layout: post
+title: ansible-airflow로 Airflow 설치하기
+date: 2016-05-04 16:25:38.000000000 +09:00
+type: post
+categories:
+- Ansible
+- Airflow
+---
 
 ansible로 airflow 환경을 구성하고 싶어서 [`role`로 한 번 만들어 봤다](https://github.com/kyungw00k/ansible-airflow).
 
@@ -74,4 +82,3 @@ $ ansible-galaxy install kyungw00k.airflow
 위 모드로 구성하고, 데몬을 재시작 할 수 있게 추가로 role을 만들어야 쓸만할 것 같다는 생각이 듭니다.
 
 현재 버전으로 쓰다가 데몬 관리가 절실해지면 그때 위 Role를 Dependency 걸어서 작업할 것 같네요(아직은 절실하지 않다?).
-

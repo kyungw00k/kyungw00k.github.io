@@ -1,5 +1,12 @@
-# Running Spark on CDH4
-
+---
+layout: post
+title: Running Spark on CDH4
+date: 2015-10-21 14:51:52.000000000 +09:00
+type: post
+categories:
+- Spark
+- CDH
+---
 ## Purpose
 기존에 쓰고 있는 CDH4 구성에서 Spark를 쓰고자 하는 경우
 

@@ -1,5 +1,15 @@
-# [blink-diff](http://yahoo.github.io/blink-diff/)
+---
+layout: post
+title: blink-diff
+date: 2016-01-20 16:23:26.000000000 +09:00
+type: post
+categories:
+- JavaScript
+- NPM
+---
+
 > A lightweight image comparison tool
+> (from [blink-diff](http://yahoo.github.io/blink-diff/))
 
 imagemagick 등의 dependencies가 없음
 

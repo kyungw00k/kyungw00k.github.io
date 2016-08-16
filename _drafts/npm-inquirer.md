@@ -1,5 +1,14 @@
-# [inquirer](https://github.com/SBoudrias/Inquirer.js)
+---
+layout: post
+title: inquirer
+date: 2016-02-12 00:10:23.000000000 +09:00
+type: post
+categories:
+- JavaScript
+- NPM
+---
 > A collection of common interactive command line user interfaces
+> (from [Inquirer.js](https://github.com/SBoudrias/Inquirer.js))
 
 ![](https://camo.githubusercontent.com/c60910b1ebcfd4448a986fa22d0d412b7f2d770c/68747470733a2f2f692e636c6f756475702e636f6d2f4c6352477058493043582d3330303078333030302e706e67)
 

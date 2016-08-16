@@ -1,15 +1,21 @@
-# Finding length of the sequence
-
+---
+layout: post
+title: Finding length of the sequence
+date: 2016-02-10 00:18:55.000000000 +09:00
+type: post
+categories:
+- CodeWars
+---
 ## My Solution
 ```js
 var lengthOfSequence = function (arr, n) {
   var last = arr.lastIndexOf(n),
       first = arr.indexOf(n);
-      
+
   if ( last === -1 || first === -1 || arr.length === 1 ||  arr.slice(first+1).indexOf(n) + first + 1 !== last) {
     return 0;
   }
-  
+
   return last - first + 1;
 };
 ```

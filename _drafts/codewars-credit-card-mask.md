@@ -1,4 +1,11 @@
-# Credit Card Mask
+---
+layout: post
+title: Credit Card Mask
+date: 2015-11-09 17:15:50.000000000 +09:00
+type: post
+categories:
+- CodeWars
+---
 
 마지막 4자리를 제외한 나머지 부분만 #로 Masking 처리 하는 문제. the last four characters into '#'.
 

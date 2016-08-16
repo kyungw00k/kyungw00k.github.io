@@ -1,5 +1,11 @@
-# Getting the Adafruit serial cable to work on OS X
-
+---
+layout: post
+title: Getting the Adafruit serial cable to work on OS X
+date: 2015-12-10 13:28:15.000000000 +09:00
+type: post
+categories:
+- Raspberry Pi
+---
 ## 0. 케이블 구매
 ![](https://www.adafruit.com/images/970x728/954-02.jpg)
 https://www.adafruit.com/product/954

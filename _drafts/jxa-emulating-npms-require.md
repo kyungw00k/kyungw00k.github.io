@@ -1,4 +1,12 @@
-# Emulating npm's require()
+---
+layout: post
+title: Emulating npm's require()
+date: 2016-05-11 07:28:22.000000000 +09:00
+type: post
+categories:
+- JXA
+- JavaScript
+---
 
 ```js
 ObjC.import('Foundation');

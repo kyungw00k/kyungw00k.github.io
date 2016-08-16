@@ -1,4 +1,11 @@
-# Converting integer to currency format
+---
+layout: post
+title: Converting integer to currency format
+date: 2016-02-10 00:15:50.000000000 +09:00
+type: post
+categories:
+- CodeWars
+---
 
 ## My Solution
 ```js
@@ -8,18 +15,18 @@ function toCurrency(price){
   var cnt = 0;
   while (priceArr.length) {
     formattedPrice.push(priceArr.pop());
-    
+
     if ( cnt++ == 2 && priceArr.length ) {
       formattedPrice.push(',')
       cnt = 0;
     }
   }
-  
+
   priceArr = [];
   while(formattedPrice.length) {
     priceArr.push(formattedPrice.pop());
   }
-  
+
   return priceArr.join('');
 }
 ```

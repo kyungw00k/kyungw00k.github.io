@@ -1,5 +1,12 @@
-# Running Shell Scripts
-
+---
+layout: post
+title: Running Shell Scripts
+date: 2016-05-11 07:41:22.000000000 +09:00
+type: post
+categories:
+- JXA
+- JavaScript
+---
 ## Method 1. Use `app.doShellScript`
 https://github.com/dtinth/JXA-Cookbook/wiki/Shell-and-CLI-Interactions#running-shell-scripts
 

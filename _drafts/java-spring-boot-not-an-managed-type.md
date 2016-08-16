@@ -1,6 +1,12 @@
-# `Not an managed type`
-개인 플잭을 하다가 아래와 같은 이슈가 발생했다.
-
+---
+layout: post
+title: Not an managed type
+date: 2015-10-13 10:40:56.000000000 +09:00
+type: post
+categories:
+- Java
+- Spring
+---
 ## Problem
 ```
 Caused by: java.lang.IllegalArgumentException: Not an managed type: class blah.blahblah

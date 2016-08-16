@@ -1,5 +1,12 @@
-# Airflow
-
+---
+layout: post
+title: Setup Airflow on Mac
+date: 2016-05-04 16:09:38.000000000 +09:00
+type: post
+categories:
+- Airflow
+- Mac
+---
 ## Setup on Mac
 `brew` is mandatory!
 

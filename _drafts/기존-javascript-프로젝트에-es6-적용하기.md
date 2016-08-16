@@ -1,5 +1,12 @@
-# 기존 플잭에 ES6 적용하기
-
+---
+layout: post
+title: 기존 JavaScript 프로젝트에 ES6 적용하기
+date: 2015-10-12 15:38:39.000000000 +09:00
+type: post
+categories:
+- ES6
+- JavaScript
+---
 ## 환경 구축
 ```
 npm install -g babel

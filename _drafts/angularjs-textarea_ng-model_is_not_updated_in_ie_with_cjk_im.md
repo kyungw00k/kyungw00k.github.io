@@ -1,5 +1,11 @@
-# textarea ng-model is not updated in IE with CJK IME
-
+---
+layout: post
+title: textarea ng-model is not updated in IE with CJK IME
+date: 2016-02-22 11:40:38.000000000 +09:00
+type: post
+categories:
+- AngularJS
+---
 ## Issue
 https://github.com/angular/angular.js/issues/6656
 

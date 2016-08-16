@@ -1,4 +1,11 @@
-# Mac에서 NAT로 인터넷 공유하기
+---
+layout: post
+title: Mac에서 NAT로 인터넷 공유하기
+date: 2015-12-24 10:03:31.000000000 +09:00
+type: post
+categories:
+- Mac
+---
 
 IP 대역은 `192.168.2.0/24` 로 가정하고, Gateway는 `192.168.2.1`로 한다.
 모든 작업은 root 권한으로 진행한다.
@@ -43,7 +50,7 @@ pfctl -vvv -f /etc/pf.conf -E
 ```
 /usr/libexec/PlistBuddy -c 'add :ProgramArguments:3 string -e' /System/Library/LaunchDaemons/com.apple.pfctl.plist
 ```
- 
+
 ## (optional) Mac에 내장된 DHCP를 이용해 동적으로 IP를 할당하기
 `bootpd.plist`를 아래와 같이 수정한다.
 

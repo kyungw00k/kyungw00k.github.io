@@ -1,5 +1,12 @@
-# WIFI
-
+---
+layout: post
+title: Setting WIFI WPA/WPA2 on Ubuntu
+date: 2016-02-15 15:49:08.000000000 +09:00
+type: post
+categories:
+- Linux
+- Ubuntu
+---
 ## Packages
 ```
 # Ubuntu

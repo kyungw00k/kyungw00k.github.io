@@ -1,4 +1,11 @@
-# Flash Player Debug 로그 보기
+---
+layout: post
+title: Flash Player Debug 로그 보기
+date: 2015-10-16 16:57:55.000000000 +09:00
+type: post
+categories:
+- Flash
+---
 > 디버거를 설치 했는데도 로그가 남지 않더라. 알고 봤더니 설정 이슈. 일단 Mac 기준으로 적어본다. 그 밖의 플랫폼은 `참고`란의 URL을 살펴볼 것
 
 ## 해결 방안

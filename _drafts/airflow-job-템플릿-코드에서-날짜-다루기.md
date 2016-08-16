@@ -1,5 +1,9 @@
-# Job 템플릿/코드에서 날짜 다루기
-
+---
+layout: post
+title: Airflow Job 템플릿/코드에서 날짜 다루기
+date: 2016-04-08 11:45:12.000000000 +09:00
+type: post
+---
 
 ## Intro
 Airflow Job에서 Hive 쿼리를 돌리는데 기준 날짜에 `YYYY-MM-DD` 포멧인 `ds`를 사용하고 있었다.

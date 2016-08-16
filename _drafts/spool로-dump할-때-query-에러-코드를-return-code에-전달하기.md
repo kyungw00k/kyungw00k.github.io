@@ -1,5 +1,12 @@
-# SPOOL로 Dump 할 때 Query 에러 코드를 Return Code에 전달하기
-
+---
+layout: post
+title: SPOOL로 Dump 할 때 Query 에러 코드를 Return Code에 전달하기
+date: 2016-04-08 16:27:54.000000000 +09:00
+type: post
+categories:
+- Oracle
+- SQL
+---
 ## Problem
 ```sql
 SET HEADING OFF

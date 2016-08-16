@@ -1,9 +1,16 @@
-# Hive에서 Multi Table Select 하기
-
+---
+layout: post
+title: Hive에서 Multi Table Select 하기
+date: 2015-10-13 10:35:57.000000000 +09:00
+type: post
+categories:
+- Hive
+- HiveQL
+---
 ## 이런걸 하고 싶었다
 그리고 (당연히) 될 줄 알았다.
 
-```
+```sql
 SELECT
       t1.value
     , t2.value
@@ -18,7 +25,7 @@ WHERE
 ## JOIN 해야해요
 아래 처럼 JOIN 해야 한다.
 
-```
+```sql
 SELECT
     t1.value
   , t2.value

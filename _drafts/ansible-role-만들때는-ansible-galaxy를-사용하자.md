@@ -1,4 +1,11 @@
-# Role 만들때는 ansible-galaxy를 사용하자
+---
+layout: post
+title: Role 만들때는 ansible-galaxy를 사용하자
+date: 2016-05-04 16:00:42.000000000 +09:00
+type: post
+categories:
+- Ansible
+---
 
 ## 1. 뼈대 만들기
 예컨데, `ansible-airflow` Role을 만든다고 할 때, 다음과 같이 실행한다.
