@@ -1,3 +1,0 @@
-# Xcode
-
-Tips for Xcode
