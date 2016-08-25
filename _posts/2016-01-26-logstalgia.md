@@ -11,7 +11,7 @@ categories:
 
 ## Demo
 <iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="http://www.youtube.com/embed/HeWfkPeDQbY?autoplay=0"
+  src="https://www.youtube.com/embed/HeWfkPeDQbY?autoplay=0"
   frameborder="0"></iframe>
 
 ## Install
