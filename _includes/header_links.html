@@ -1,0 +1,7 @@
+<nav>
+	<ul>
+		<li><a class="{% if page.url == '/about/' %}selected{% endif %}" href="/about/">About</a></li>
+		<li><a class="{% if page.url == '/archives/' %}selected{% endif %}" href="/archives/">Archives</a></li>
+    <li><a href="{{ "/atom.xml" | prepend: site.baseurl }}">RSS</a></li>
+	</ul>
+</nav>

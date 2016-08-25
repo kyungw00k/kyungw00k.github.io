@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section>
+  <h2>Recent Posts</h2>
+    <ul class="this">
+		  {% for post in site.posts limit:10 %}
+  		<li>
+	      <div class="post-date">
+	        <span>{{ post.date | date: "%b %d, %Y" }}</span>
+	      </div>
+	      <div class="title">
+	        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	      </div>
+	    </li>
+  		{% endfor %}
+  </ul>
+</section>

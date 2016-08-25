@@ -1,0 +1,54 @@
+# Site Info
+title:              "kyungw00k"
+description:        "Just another geek weblog"
+# google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+google_analytics:   UA-37308811-4 # Put your Google Analytics code
+disqus:             kyungw00k
+
+# Author Info
+author_name:        "Kyungwook Park"
+author_email:       parksama@gmail.com
+author_gravatar:    9e3ac0dbb291e11d5fa3b012c56df724 # Gravatar md5 hash
+twitter_username:   kyungw00k
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /:year/:month/:day/:title/
+timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+comments:           true
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+    entity_output: as_char
+    footnote_nr: 1
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+    toc_levels: 1..6
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jemoji
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
