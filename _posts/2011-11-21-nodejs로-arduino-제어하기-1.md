@@ -15,7 +15,7 @@ categories:
 
 아래 내용을 좀 더 쉽게(?) 써놓은 포스트가 있어서 링크를 걸어봅니다.
 
->[Arduino 101 using NodeJS](https://kyungw00k.wordpress.com/2013/08/13/arduino-101-using-nodejs/)
+>[Arduino 101 using NodeJS](/2013/08/13/arduino-101-using-nodejs/)
 
 <iframe src="//player.vimeo.com/video/17437907" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
