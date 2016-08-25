@@ -15,7 +15,7 @@ layout: default
 		<h1>{{ page.title }}</h1>
 		<!-- {% if page.categories %}<h2>{% include category_links.html categories=page.categories %}</h2>{% endif %} -->
 		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
-		
+
 		<a class="comment" href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
 	</div>
 
@@ -28,7 +28,4 @@ layout: default
 	<a href="{{site.baseurl}}/">Back</a>
 </div>
 
-<!-- Add Disqus Comments -->
-{% if site.disqus and site.comments %}
-    {% include disqus.html %}
-{% endif %}
+{% include disqus.html %}
