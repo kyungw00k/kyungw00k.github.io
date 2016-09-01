@@ -2,17 +2,36 @@
 layout: default
 ---
 <section>
-  <h2>Recent Posts</h2>
-    <ul class="this">
-		  {% for post in site.posts limit:10 %}
-  		<li>
-	      <div class="post-date">
-	        <span>{{ post.date | date: "%b %d, %Y" }}</span>
-	      </div>
-	      <div class="title">
-	        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	      </div>
-	    </li>
-  		{% endfor %}
+{% if site.posts.size > 0 %}
+  <h3>{{ site.posts[0].date | date: '%Y' }}</h3>
+
+  {% for post in site.posts %}
+    {% unless post.next %}
+  <ul class="this">
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
   </ul>
+  <h3>{{ post.date | date: '%Y' }}</h3>
+  <ul class="past">
+      {% endif %}
+    {% endunless %}
+    <li>
+      <div class="post-date">
+        <span>{{ post.date | date: "%b %d, %Y" }}</span>
+      </div>
+      <div class="title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </div>
+    </li>
+  {% endfor %}
+
+  </ul>
+{% else %}
+  <h3>Oops...</h3>
+  <p>
+    There is nothing in here.
+  </p>
+{% endif %}
 </section>
