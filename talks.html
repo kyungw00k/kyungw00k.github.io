@@ -1,0 +1,43 @@
+---
+layout: default
+title: "Talks"
+---
+<section>
+  {% if site.talks.size > 0 %}
+  <h3>{{ site.talks[0].date | date: '%Y' }}</h3>
+
+  {% for talk in site.talks %}
+  {% unless talk.next %}
+  <ul class="this">
+    {% else %}
+    {% capture year %}{{ talk.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ talk.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+  </ul>
+  <h3>{{ talk.date | date: '%Y' }}</h3>
+  <ul class="past">
+    {% endif %}
+    {% endunless %}
+    <li>
+      <div class="talk-date">
+        <span>{{ talk.date | date: "%b %d, %Y" }}</span>
+      </div>
+      <div class="title">
+        <a href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }}</a>
+      </div>
+    </li>
+    {% endfor %}
+
+  </ul>
+  {% else %}
+  <h3>I should share something good to others...</h3>
+  <p>
+    Apparently, I couldn't.
+  </p>
+  {% endif %}
+</section>
+
+
+<div class="back">
+	<a href="{{site.baseurl}}/">Back</a>
+</div>

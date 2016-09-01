@@ -52,3 +52,7 @@ jekyll-archives:
   layout: category_archives
   permalinks:
     category: /categories/:name/
+
+collections:
+  talks:
+    output: false
