@@ -47,10 +47,6 @@
 <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 
-{% if site.twitter_username %}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{% endif %}
-
 {% if jekyll.environment == 'production' %}
 {% if site.google_analytics %}
 <script>

@@ -1,8 +1,8 @@
 <nav>
-	<ul>
-		<li><a class="{% if page.url == '/about/' %}selected{% endif %}" href="/about/">About</a></li>
-		<li><a class="{% if page.url == '/' %}selected{% endif %}" href="/">Posts</a></li>
-		<li><a class="{% if page.url == '/talks/' %}selected{% endif %}" href="/talks">Talks</a></li>
-    <li><a href="{{ "/atom.xml" | prepend: site.baseurl }}">RSS</a></li>
-	</ul>
+    <ul>
+        <li><a class="{% if page.url == '/about/' %}selected{% endif %}" href="/about/">About</a></li>
+        <li><a class="{% if page.url == '/' %}selected{% endif %}" href="/">Posts</a></li>
+        <li><a class="{% if page.url == '/talks/' %}selected{% endif %}" href="/talks">Talks</a></li>
+        <li><a href="{{ '/atom.xml' | prepend: site.baseurl }}">RSS</a></li>
+    </ul>
 </nav>

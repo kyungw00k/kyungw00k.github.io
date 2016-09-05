@@ -5,32 +5,32 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ko">
 
-	<head>
-		{% include head.html %}
-	</head>
+<head>
+    {% include head.html %}
+</head>
 
-	<body>
-		{% include facebook_init.html %}
+<body>
+{% include facebook_init.html %}
 
-		{% include header.html %}
+{% include header.html %}
 
-		{% include header_links.html %}
+{% include header_links.html %}
 
-		<main>
-			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
-		</main>
+<main>
+    {{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+</main>
 
-		{% if page.path contains '_posts' %}
+{% if page.path contains '_posts' %}
 
-			{% if content contains 'reversefootnote' %}
-				<aside class="note"></aside>
-				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
-			{% endif %}
+{% if content contains 'reversefootnote' %}
+<aside class="note"></aside>
+<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
+{% endif %}
 
-		{% endif %}
+{% endif %}
 
-		{% include footer.html %}
+{% include footer.html %}
 
-	</body>
+</body>
 
 </html>

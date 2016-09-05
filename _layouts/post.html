@@ -3,31 +3,71 @@ layout: default
 ---
 
 <noscript>
-	<style>
-		article .footnotes {
-			display: block;
-		}
-	</style>
+    <style>
+        article .footnotes {
+            display: block;
+        }
+
+        article .twitter-share-button {
+            display: none;
+        }
+
+        article .fb-like {
+            display: none;
+        }
+    </style>
 </noscript>
 
 <article>
-	<div class="center">
-		<h1>{{ page.title }}</h1>
-		<!-- {% if page.categories %}<h2>{% include category_links.html categories=page.categories %}</h2>{% endif %} -->
-		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
+    <div class="center">
+        <h1>{{ page.title }}</h1>
+        <!-- {% if page.categories %}<h2>{% include category_links.html categories=page.categories %}</h2>{% endif %} -->
+        <time>{{ page.date | date: '%B %-d, %Y' }}</time>
 
-		<a class="comment" href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
-	</div>
+        <a class="comment" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"
+           data-disqus-identifier="{{ post.url }}"></a>
+    </div>
 
-	<div class="divider"></div>
+    <div class="divider"></div>
 
-	{{ content }}
+    {{ content }}
+
+    <div class="divider"></div>
+
+    <div class="center">
+        <!-- Twitter -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+        <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');</script>
+
+        <!-- Facebook -->
+        <div class="fb-like" data-widtht="110" data-href="{{ post.url }}" data-mobile_iframe="true" data-layout="button"
+             data-action="like" data-size="large" data-show-faces="false" data-share="true"
+             style="position: relative; top: -16px; left: -1px;"></div>
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    </div>
 </article>
 
 <div class="back">
-	<a href="{{site.baseurl}}/">Back</a>
+    <a href="{{site.baseurl}}/">Back</a>
 </div>
 
+{% if jekyll.environment == 'production' %}
 {% include disqus_count.html %}
-
 {% include disqus.html %}
+{% endif %}
