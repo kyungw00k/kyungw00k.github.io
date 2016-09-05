@@ -24,7 +24,7 @@ status: publish
 
 손 쉽게(이왕이면 공짜로?) 한 방(?)에 할 수 없을까 ~~아님 내가 쓸 바퀴 한 번 만들어볼까~~ 고민하던 차에...
 
-SauceLabs가 [OpenSource의 경우에는 무료로 Instance를 제공해준다]((https://saucelabs.com/opensauce/)는 글을 봤다.
+SauceLabs가 [OpenSource의 경우에는 무료로 Instance를 제공해준다](https://saucelabs.com/opensauce/)는 글을 봤다.
 
 ![open sauce plan](/images/2016/09/05/open-sauce-plan.png)
 
