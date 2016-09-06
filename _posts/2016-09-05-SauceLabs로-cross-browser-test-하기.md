@@ -95,7 +95,7 @@ Tape도 된다고는 했지만 Tape 쪽 코드든 내 코드든 IE6/7에서 어�
 
 > 여기서 지원하는 Framework으로 변경하지 뭐. 그 정도 시간은 투자할 수 있어.
 
-하지만 Grunt를 쓰고 않았다.
+하지만 Grunt를 쓰고 싶지 않았다.
 
 > 아, 물론 Grunt를 싫어하는건 아니에요.<br />
 > 그냥 작은 프로젝트라 그 정도(?) 까지 쓰고 싶지 않았던 것일 뿐...<br />
@@ -188,7 +188,7 @@ sauce_key: 550e8400-e29b-41d4-a716-446655440000
 ```
 tunnel:
   type: ngrok
-  authtoken: 3xHC2jHvjwefzUV3UmtNt_2oFBA1dmECwX317WUq8z6
+  authtoken: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   proto: tcp
 ```
 
