@@ -192,10 +192,8 @@ tunnel:
   proto: tcp
 ```
 
-> **Updated**
-
-> Q. Outsider: 근데 중간에 API 키 지워야 하지 않아요? 해보진 않았지만 ㅎ
-
+> **Updated**<br />
+> Q. Outsider: 근데 중간에 API 키 지워야 하지 않아요? 해보진 않았지만 ㅎ<br />
 > A. `authtoken`은 별도로 `NGROK_AUTH_TOKEN` 환경 변수로 설정이 가능해서 `.zuul.yml` 에 포함시킬 필요가 없다고 합니다.
 
 적용 후에 Concurrency를 SauceLabs VM에 맞춰서 5개로 했다가
