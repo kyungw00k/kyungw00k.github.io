@@ -55,4 +55,4 @@ jekyll-archives:
 
 collections:
   talks:
-    output: false
+    output: true
