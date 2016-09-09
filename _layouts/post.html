@@ -61,6 +61,13 @@ layout: default
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
     </div>
+
+    {% if jekyll.environment == 'production' %}
+    <div class="divider"></div>
+    <div class="center">
+    {% include ad.html %}
+    </div>
+    {% endif %}
 </article>
 
 <div class="back">
@@ -68,7 +75,6 @@ layout: default
 </div>
 
 {% if jekyll.environment == 'production' %}
-{% include ad.html %}
 {% include disqus_count.html %}
 {% include disqus.html %}
 {% endif %}
