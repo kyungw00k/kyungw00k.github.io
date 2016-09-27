@@ -362,7 +362,7 @@ article {
   text-align: center;
   a {
     text-decoration: none;
-    margin: 40px auto 40px;
+    margin: 10px auto 10px;
     display: inline-block;
     padding: 10px;
     border: 0;
@@ -426,6 +426,12 @@ section {
     }
   }
 }
+
+section.ad_area {
+  text-align: center;
+  margin: 10px auto 10px;
+}
+
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
   }
