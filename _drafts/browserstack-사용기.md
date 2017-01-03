@@ -11,17 +11,17 @@ status: publish
 
 작년 하반기에는 개인/회사 Front 쪽 코드에 SauceLabs를 메인으로 썼었다.
 
-하지만, 개인 계정으로 회사에서 업무를 보는건 `아무래도 좀 아니다` 싶었고, 무엇 보다 회사에서 보다 맘 편하게 쓰고 싶은 마음에 구매 요청을 했었다.
+하지만, 개인 계정으로 회사에서 업무를 보는 건 `아무래도 좀 아니다` 싶었고, 무엇보다 회사에서 보다 맘 편하게 쓰고 싶은 마음에 구매 요청을 했었다.
 
 그래서 구매 허락을 받고 나서 SauceLabs를 구매하려다,
 
-> BrowserStack은 어떨까? 괜찮나? 거기서 거길려나?
+> BrowserStack은 어떨까? 괜찮나?
 
-궁금해서 한 달정도 고민해볼 생각으로 BrowserStack으로 구매를 신청했다.
+궁금해서 한 달 정도 고민해볼 생각으로 BrowserStack으로 구매를 신청했다.
 
 후기를 적으려고 기능 이곳저곳을 돌아다니다 보니 자연스럽게 SauceLabs와 비교를 하게 되었다.
 
-> 속도는 어떨려나?
+> 속도는 빠른가요?
 
 어짜피 국내에 있는 회사가 아니라 속도는 애초에 기대도 하지 않았던 터라, 어느정도 포기는 했었다.
 
@@ -35,7 +35,7 @@ status: publish
 
 가격은 SauceLabs도 얼추 비슷한 것 같고, Parallel Test(SauceLabs에서는 Concurrent VM) 수가 높아질수록 (당연히) 비싸진다.
 
-> 그래서 어떤게 더 좋아? 니가 쓰는거 그냥 쓸께
+> 그래서 어떤 게 더 좋아? 네가 쓰는 거 그냥 쓸게
 
 몇 가지 항목으로 나눠서 살펴보면,
 
@@ -46,7 +46,7 @@ status: publish
 
 개인적으로는 SauceLabs 보다 BrowserStack이 더 맘에 들었다.
 
-> 단순 UI 이슈일지도 모르지만 몇 가지 포인트는 있습니다. 흠.흠.
+> 단순 UI 이슈일지도 모르지만 몇 가지 포인트는 있습니다. 흠. 흠.
 
 일단 리뷰는 아래 네 가지 기능을 살펴보는 것으로 한다.
 
@@ -119,7 +119,7 @@ status: publish
 
 전에 글을 썼든 [SauceLabs로 Cross Browser Test 하기](https://kyungw00k.github.io/2016/09/05/SauceLabs%EB%A1%9C-cross-browser-test-%ED%95%98%EA%B8%B0/) 내용과 마찬가지로 방법은 비슷하다.
 
-보다 더 자세한 이야기는 `BrowserStack으로 Cross Browser Test 하기`로 따로 정리(`언제? 올해 말?`)하도록 한다.
+> 보다 더 자세한 이야기는 `BrowserStack으로 Cross Browser Test 하기`에서 (조만간) 다룰께요
 
 ### 1.3. Screenshots
 ![browserstack-screenshots](../images/2017/01/03/browserstack-screenshots.png)
