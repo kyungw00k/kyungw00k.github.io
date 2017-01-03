@@ -1,3 +1,14 @@
+---
+layout: post
+title: BrowserStack 사용기
+date: 2017-01-03 16:53:38.000000000 +09:00
+type: post
+published: true
+status: publish
+---
+
+## 시작하기 전에
+
 작년 하반기에는 개인/회사 Front 쪽 코드에 SauceLabs를 메인으로 썼었다.
 
 하지만, 개인 계정으로 회사에서 업무를 보는건 `아무래도 좀 아니다` 싶었고, 무엇 보다 회사에서 보다 맘 편하게 쓰고 싶은 마음에 구매 요청을 했었다.
@@ -26,8 +37,9 @@
 
 > 그래서 어떤게 더 좋아? 니가 쓰는거 그냥 쓸께
 
-몇 가지
-- 자동화 테스트(ex. `karma`, `nightwatchjs` 등등): 비슷
+몇 가지 항목으로 나눠서 살펴보면,
+
+- 자동화 테스트 설정 난이도(ex. `karma`, `nightwatchjs` 등등): 비슷
 - 가격: 비슷
 - 문서화: 비슷
 - UI: (개취에 가깝지만 일단) BrowserStack
@@ -64,7 +76,7 @@
 
 ![browserstack-live-general-settings](../images/2017/01/03/browserstack-live-general-settings.png)
 
-`톱니 모양의 아이콘`을 누르면 위와 같이 일반적인 설정(Session timeout이나 Local 설정 등등)을 할 수 있고,
+`톱니 모양의 아이콘`을 누르면 위와 같이 일반적인 설정(`Session timeout`이나 Local 설정 등등)을 할 수 있고,
 
 ![browserstack-live-general-settings-keyboard-layout-no-korean](../images/2017/01/03/browserstack-live-general-settings-keyboard-layout-no-korean.png)
 
