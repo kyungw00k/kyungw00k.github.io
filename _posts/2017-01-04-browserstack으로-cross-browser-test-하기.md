@@ -434,6 +434,80 @@ Unit Test때와 동일하게 BrowserStack에서 실행할 브라우저를 따로
 
 어짜피 단순 렌더링 결과만 확인하면 되는 수준이라 모양이 이렇게 되었...
 
+`test/visual/spec/render.spec.js` 내용은 다음과 같다.
+
+```js
+const fs = require('fs')
+const path = require("path")
+const StaticServer = require('static-server')
+const staticServerInstance = new StaticServer({
+  rootPath: '.',
+  port: parseInt(Math.random() * 10000, 10) + 50000 // PORT를 렌덤으로 설정하는 부분
+});
+
+//
+// Configure Test Environment
+//
+
+var testSuite = {
+  before: function (browser, done) {
+    console.log('Setting up...');
+    staticServerInstance.start(function () {
+      done()
+    });
+  },
+  beforeEach: function(browser) {
+    browser.resizeWindow(1024, 768);
+  },
+  after: function (browser, done) {
+    staticServerInstance.stop();
+    browser.end()
+    done()
+  }
+};
+
+//
+// Build Test Suite
+//
+
+let basePath = path.join(__dirname, '../html')
+
+fs.readdirSync(basePath)
+  .filter(function (file) { // html 경로에 "파일"만 가져와서
+    return fs.statSync(path.join(basePath, file)).isFile();
+  })
+  .filter(function (file) { // 그 중에 확장자가 html인 파일에 한하여
+    return path.extname(file).toLowerCase() === '.html'
+  })
+  .forEach(function (file) { // 테스트 케이스를 만든다. 이때 Suite 이름은 "HTML 파일 이름"
+    let key = file.split(path.extname(file))[0]
+
+    //
+    // Nightwatch Test Code
+    //
+
+    testSuite[key] = function (browser) {
+      let firstUrl = `http://localhost:${staticServerInstance.port}/test/visual/html/${key}.html`
+      "use strict";
+      browser
+        .url(firstUrl)
+        .waitForElementPresent('iframe', 3000)
+        .assert.title('')
+        .pause(5000)
+        .compareScreenshot(`${key}.png`, 10)
+
+      browser
+        .expect
+        .element('#nightwatch')
+        .to.be.present.before(1000)
+
+      browser.end()
+    }
+  })
+
+module.exports = testSuite
+```
+
 테스트 작성은 http://nightwatchjs.org/guide#writing-tests 링크를 참고하면 되겠다.
 
 이제 설정 파일을 하나 하나 살펴보자.
