@@ -547,6 +547,7 @@ module.exports = nightwatch_config;
 이 부분은 [richard-flosi/8a5d2e10b6609ab9d06a](https://gist.github.com/richard-flosi/8a5d2e10b6609ab9d06a) 코드를 사용했다.
 
 다만, 몇 가지 수정을 했는데,
+
 - `resemblejs` -> `blink-diff`로 교체(이건 개취)
 - 스샷과 DIFF 파일 이름을 렌덤하게 하도록 파일 이름에 `prefix`를 추가
 
@@ -557,6 +558,7 @@ module.exports = nightwatch_config;
 이는 기존의 nightwatch에 있는 기능이라기 보다 확장한 부분으로 자세한 사항은 [가이드 문서](http://nightwatchjs.org/guide#extending)를 살펴보면 되겠다.
 
 위 Gist에서 수정한 파일 최종본은 다음과 같다.
+
 - [kyungw00k/nightwatch-browserstack-example/blob/master/test/visual/nightwatch/assertions/compareScreenshot.js](https://github.com/kyungw00k/nightwatch-browserstack-example/blob/master/test/visual/nightwatch/assertions/compareScreenshot.js)
 - [kyungw00k/nightwatch-browserstack-example/blob/master/test/visual/nightwatch/commands/compareScreenshot.js](https://github.com/kyungw00k/nightwatch-browserstack-example/blob/master/test/visual/nightwatch/commands/compareScreenshot.js)
 
