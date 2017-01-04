@@ -7,6 +7,8 @@ published: true
 status: publish
 ---
 
+> 이 글은 제품 사용기에 가깝습니다. 자동화 테스트는 [BrowserStack으로 Cross Browser Test 하기](/2017/01/04/browserstack으로-cross-browser-test-하기/)에서 상세히 다룰께요
+
 ## 시작하기 전에
 
 작년 하반기에는 개인/회사 Front 쪽 코드에 SauceLabs를 메인으로 썼었다.
@@ -119,7 +121,7 @@ status: publish
 
 전에 글을 썼든 [SauceLabs로 Cross Browser Test 하기](https://kyungw00k.github.io/2016/09/05/SauceLabs%EB%A1%9C-cross-browser-test-%ED%95%98%EA%B8%B0/) 내용과 마찬가지로 방법은 비슷하다.
 
-> 보다 더 자세한 이야기는 `BrowserStack으로 Cross Browser Test 하기`에서 (조만간) 다룰께요
+> 보다 더 자세한 이야기는 [BrowserStack으로 Cross Browser Test 하기](/2017/01/04/browserstack으로-cross-browser-test-하기/)에서 다룰께요
 
 ### 1.3. Screenshots
 ![browserstack-screenshots](/images/2017/01/03/browserstack-screenshots.png)
