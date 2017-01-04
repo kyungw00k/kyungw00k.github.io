@@ -423,10 +423,10 @@ Unit Test때와 동일하게 BrowserStack에서 실행할 브라우저를 따로
 
 1. `localhost` port 50000~59999 범위 내에 렌덤으로 하나 택해 static web server를 띄운 후
 1. `test/visual/spec/render.spec.js`가 `test/visual/html`에 있는 각 HTML 파일들에 대해 Test Case를 동적으로 생성하고, 각각의 테스트 케이스에서는
-    a. 해당 HTML 파일을 URL(ex. `http://localhost:50000/test/visual/html/test_page_1.html`)로 하나 씩 불러서
-	b. ScreenShot을 찍고
-	c. 기존에 가지고 있는 이미지와 비교해서
-	d. Mismatch 비율이 10% 미만이면 통과시킨다.
+  1. 해당 HTML 파일을 URL(ex. `http://localhost:50000/test/visual/html/test_page_1.html`)로 하나 씩 불러서
+  1. ScreenShot을 찍고
+  1. 기존에 가지고 있는 이미지와 비교해서
+  1. Mismatch 비율이 10% 미만이면 통과시킨다.
 
 > Q. HTML에 해당하는 Test Case를 일일이 동적으로 생성한 이유는 뭔가요?
 
