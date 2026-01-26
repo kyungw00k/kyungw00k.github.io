@@ -1,0 +1,194 @@
+name: Generate Weekly Log
+
+on:
+  schedule:
+    - cron: '0 14 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_USERNAME: kyungw00k
+  GEMINI_MODEL: gemini-2.5-flash
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate weekly log
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -e
+
+          WEEK_NUM=$(date +%V)
+          TODAY=$(date +%Y-%m-%d)
+          FILENAME="${TODAY}-weekly-log-W${WEEK_NUM}.md"
+
+          if ls _posts/*weekly-log-W${WEEK_NUM}.md 2>/dev/null; then
+            echo "Post for week ${WEEK_NUM} already exists. Skipping."
+            exit 0
+          fi
+
+          MONDAY=$(date -d "last monday" +%Y-%m-%dT00:00:00Z 2>/dev/null || date -v-monday +%Y-%m-%dT00:00:00Z)
+          SUNDAY=$(date -d "next sunday" +%Y-%m-%dT23:59:59Z 2>/dev/null || date -v+sunday +%Y-%m-%dT23:59:59Z)
+
+          echo "Fetching activity from ${MONDAY} to ${SUNDAY}"
+
+          GRAPHQL_QUERY=$(cat <<'QUERY'
+          query($username: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $username) {
+              contributionsCollection(from: $from, to: $to) {
+                totalCommitContributions
+                totalPullRequestContributions
+                totalIssueContributions
+                commitContributionsByRepository {
+                  repository {
+                    name
+                    isPrivate
+                    owner { login }
+                  }
+                  contributions { totalCount }
+                }
+              }
+            }
+          }
+          QUERY
+          )
+
+          ACTIVITY=$(curl -s -X POST https://api.github.com/graphql \
+            -H "Authorization: bearer ${GH_PAT}" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+              --arg query "$GRAPHQL_QUERY" \
+              --arg username "$GITHUB_USERNAME" \
+              --arg from "$MONDAY" \
+              --arg to "$SUNDAY" \
+              '{query: $query, variables: {username: $username, from: $from, to: $to}}')")
+
+          TOTAL_COMMITS=$(echo "$ACTIVITY" | jq '.data.user.contributionsCollection.totalCommitContributions')
+
+          if [ "$TOTAL_COMMITS" = "0" ] || [ "$TOTAL_COMMITS" = "null" ]; then
+            echo "No commits this week. Skipping."
+            exit 0
+          fi
+
+          REPOS=$(echo "$ACTIVITY" | jq '.data.user.contributionsCollection.commitContributionsByRepository')
+
+          ACTIVITY_DATA='{"summary":{},"repositories":[]}'
+          ACTIVITY_DATA=$(echo "$ACTIVITY_DATA" | jq --argjson commits "$TOTAL_COMMITS" '.summary.totalCommits = $commits')
+          ACTIVITY_DATA=$(echo "$ACTIVITY_DATA" | jq --argjson prs "$(echo "$ACTIVITY" | jq '.data.user.contributionsCollection.totalPullRequestContributions')" '.summary.totalPRs = $prs')
+          ACTIVITY_DATA=$(echo "$ACTIVITY_DATA" | jq --argjson issues "$(echo "$ACTIVITY" | jq '.data.user.contributionsCollection.totalIssueContributions')" '.summary.totalIssues = $issues')
+
+          PRIVATE_INDEX=1
+          REPOS_ARRAY="[]"
+
+          for row in $(echo "$REPOS" | jq -r '.[] | @base64'); do
+            _jq() { echo "$row" | base64 --decode | jq -r "$1"; }
+
+            REPO_NAME=$(_jq '.repository.name')
+            IS_PRIVATE=$(_jq '.repository.isPrivate')
+            OWNER=$(_jq '.repository.owner.login')
+
+            if [ "$IS_PRIVATE" = "true" ]; then
+              DISPLAY_NAME="Private Project ${PRIVATE_INDEX}"
+              PRIVATE_INDEX=$((PRIVATE_INDEX + 1))
+            else
+              DISPLAY_NAME="$REPO_NAME"
+            fi
+
+            COMMITS=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO_NAME}/commits?since=${MONDAY}&until=${SUNDAY}&author=${GITHUB_USERNAME}&per_page=100" \
+              -H "Authorization: token ${GH_PAT}" \
+              -H "Accept: application/vnd.github.v3+json" | \
+              jq '[.[] | {date: .commit.author.date[0:10], message: .commit.message | split("\n")[0]}]' 2>/dev/null || echo "[]")
+
+            REPO_OBJ=$(jq -n --arg name "$DISPLAY_NAME" --argjson commits "$COMMITS" '{name: $name, commits: $commits}')
+            REPOS_ARRAY=$(echo "$REPOS_ARRAY" | jq --argjson repo "$REPO_OBJ" '. + [$repo]')
+          done
+
+          ACTIVITY_DATA=$(echo "$ACTIVITY_DATA" | jq --argjson repos "$REPOS_ARRAY" '.repositories = $repos')
+
+          SYSTEM_PROMPT=$(cat <<'PROMPT'
+          당신은 개발자의 주간 활동을 로그 형태로 정리하는 assistant입니다.
+
+          규칙:
+          - 감정 표현 없이 사실만 기록
+          - 간결한 log 형식 사용
+          - 한국어로 작성
+          - 커밋 메시지에서 작업 의도 추출
+          - 비슷한 작업은 그룹화
+          - Private 프로젝트는 익명 유지
+          - 기술적으로 설명이 필요한 커밋은 TIL 형식으로 핵심만 간단히 풀어서 설명
+
+          출력 형식:
+          ## 요약
+          - 총 커밋: N개
+          - 주요 작업: ...
+
+          ## 프로젝트별 활동
+
+          ### [프로젝트명]
+          - YYYY-MM-DD: 작업 내용
+
+          ## TIL
+          기술적으로 의미 있는 작업이 있다면 핵심만 간단히 정리:
+          - 주제: 한 줄 설명
+
+          ## 이번 주 키워드
+          - keyword1, keyword2, ...
+          PROMPT
+          )
+
+          USER_PROMPT="아래 GitHub 활동 데이터를 바탕으로 주간 개발 로그를 작성해주세요.
+
+          기간: ${MONDAY} ~ ${SUNDAY}
+
+          활동 데이터:
+          ${ACTIVITY_DATA}"
+
+          LLM_RESPONSE=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+              --arg system "$SYSTEM_PROMPT" \
+              --arg user "$USER_PROMPT" \
+              '{
+                systemInstruction: {parts: [{text: $system}]},
+                contents: [{parts: [{text: $user}]}]
+              }')")
+
+          CONTENT=$(echo "$LLM_RESPONSE" | jq -r '.candidates[0].content.parts[0].text')
+
+          if [ "$CONTENT" = "null" ] || [ -z "$CONTENT" ]; then
+            echo "LLM response error"
+            echo "$LLM_RESPONSE"
+            exit 1
+          fi
+
+          cat > "_posts/${FILENAME}" <<EOF
+---
+layout: post
+title: "Weekly Log W${WEEK_NUM}"
+date: ${TODAY} 23:00:00 +09:00
+type: post
+published: true
+status: publish
+categories:
+  - Weekly Log
+---
+
+${CONTENT}
+EOF
+
+          echo "Created: _posts/${FILENAME}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/
+          git diff --staged --quiet || git commit -m "docs: add weekly log"
+          git push
