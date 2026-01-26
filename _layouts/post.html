@@ -24,8 +24,6 @@ layout: default
         <!-- {% if page.categories %}<h2>{% include category_links.html categories=page.categories %}</h2>{% endif %} -->
         <time>{{ page.date | date: '%B %-d, %Y' }}</time>
 
-        <a class="comment" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"
-           data-disqus-identifier="{{ post.url }}"></a>
     </div>
 
     <div class="divider"></div>
@@ -69,6 +67,4 @@ layout: default
 
 {% if jekyll.environment == 'production' %}
 {% include ad.html %}
-{% include disqus_count.html %}
-{% include disqus.html %}
 {% endif %}

@@ -3,7 +3,7 @@ title:              "kyungw00k"
 description:        "Just another geek weblog"
 # google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-37308811-4 # Put your Google Analytics code
-disqus:             kyungw00k
+# disqus:             kyungw00k
 
 # Author Info
 author_name:        "Kyungwook Park"
@@ -16,7 +16,7 @@ baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:year/:month/:day/:title/
 timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-comments:           true
+comments:           false
 
 # Site Build
 highlighter:        rouge
